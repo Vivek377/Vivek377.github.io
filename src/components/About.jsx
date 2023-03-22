@@ -5,7 +5,7 @@ import mypic from "../assets/vivek_picture.png";
 const About = () => {
   return (
     <Box
-      data-testid="about section"
+      id="about section"
       w={{ base: "100%" }}
       top={{ base: "28rem", md: "20rem" }}
       // h={"100%"}

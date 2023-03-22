@@ -1,7 +1,6 @@
 import { Box, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 import css from "../assets/css.png";
-import firebase from "../assets/firebase.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import mongo from "../assets/mongo.png";
@@ -9,11 +8,10 @@ import node from "../assets/node.png";
 import react from "../assets/react.png";
 import express from "../assets/express.png";
 import redux from "../assets/redux.png";
-import typescript from "../assets/typescript.png";
 
 const Skills = () => (
   <Box
-    data-testid="skills"
+    id="skills"
     w={{ base: "100%" }}
     top={{ base: "28rem", md: "20rem" }}
     // h={"100%"}

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { HiDownload } from "react-icons/hi";
 import { FaBars } from "react-icons/fa";
 import { GiCancel } from "react-icons/gi";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -29,11 +30,61 @@ const Navbar = () => {
           fontSize={"xl"}
           gap={{ sm: "1rem", md: "2rem" }}
         >
-          <Box id="nav-link home">Home</Box>
-          <Box id="nav-link about">About</Box>
-          <Box id="nav-link skills">Skills</Box>
-          <Box id="nav-link projects">Projects</Box>
-          <Box id="nav-link contact">Contact</Box>
+          <Box id="nav-link home">
+            <Link
+              smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
+              to="home"
+            >
+              Home
+            </Link>
+          </Box>
+          <Box id="nav-link about">
+            <Link
+              smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
+              to="about section"
+            >
+              About
+            </Link>
+          </Box>
+          <Box id="nav-link skills">
+            <Link
+              smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
+              to="skills"
+            >
+              Skills
+            </Link>
+          </Box>
+          <Box id="nav-link projects">
+            <Link
+              smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
+              to="projects"
+            >
+              Projects
+            </Link>
+          </Box>
+          <Box id="nav-link contact">
+            <Link
+              smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
+              to="contact"
+            >
+              Contact
+            </Link>
+          </Box>
           <Box id="nav-link resume">
             <HiDownload />
             <a href="http://localhost:3000/Vivek-Kumar-Resume.pdf" download>

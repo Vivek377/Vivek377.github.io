@@ -8,7 +8,6 @@ import { BsWhatsapp } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
 const Contact = () => {
-  console.log(Lnkdin);
   return (
     <Box id="contact"
       w={{ base: "100%" }}

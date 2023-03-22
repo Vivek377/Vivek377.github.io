@@ -6,7 +6,7 @@ import VirtulShop from "../assets/VirtualShop.png";
 
 const Projects = () => {
   return (
-    <Box data-testid="projects"
+    <Box id="projects"
       w={{ base: "100%" }}
       top={{ base: "28rem", md: "5rem" }}
       h={{ md: "70rem" }}
