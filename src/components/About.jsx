@@ -5,31 +5,33 @@ import mypic from "../assets/vivek_picture.png";
 const About = () => {
   return (
     <Box
-      w={"full"}
-      top={"30rem"}
-      h={"100%"}
-      position={"relative"}
-      color={"white"}
+      w={{base:"100%"}}
+      top={{base:"28rem",md:"20rem"}}
+      // h={"100%"}
+      position={{base:"relative"}}
+      color={"pink.600"}
       bg={"#1a202c"}
     >
-      <Box w={"20%"} m={"auto"}>
+      <Box  w={{ base: "12rem", md: "15rem" }} m={"auto"} mt={{ base: "12rem" }}>
         <Text fontWeight={"semibold"} fontSize={"4xl"}>
           About Me
         </Text>
       </Box>
       <Box
-        w={"60%"}
-        p={"1rem"}
-        m={"auto"}
-        mt={"4rem"}
-        display={{ sm:"flex", md: "flex" }}
-        gap={"2rem"}
+        w={{base:"60%"}}
+        m={{base:"auto"}}
+        mt={{base:"4rem"}}
+        display={{ sm: "flex", md: "flex" }}
       >
-        <Box w={"30%"}>
-          <Image borderRadius={"10%"} w={"90%"} src={mypic} />
+        <Box w={{base:"30rem"}}>
+          <Image
+            borderRadius={"10%"}
+            w={{ base: "13rem", sm: "3rem", md: "9rem" }}
+            src={mypic}
+          />
         </Box>
-        <Box w={"70%"}>
-          <Text fontSize={"lg"}>
+        <Box mt={{ base: "2rem" }} w={{ md: "60rem" }}>
+          <Text fontWeight={'semibold'} fontSize={"lg"}>
             dedicated full stack web developer who is always passionate about
             learning new things. A good leader and a good team player. Looking
             forward to developing products that help in making peopleʼs lives

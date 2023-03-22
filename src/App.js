@@ -1,14 +1,23 @@
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import { Box } from '@chakra-ui/react';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import GitStats from './components/GitStats';
 
 function App() {
   return (
-    <div>
+    <Box>
       <Navbar />
       <Home />
       <About />
-    </div>
+      <Skills />
+      <Projects />
+      <Contact />
+      <GitStats />
+    </Box>
   );
 }
 

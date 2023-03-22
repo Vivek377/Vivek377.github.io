@@ -11,21 +11,22 @@ const Navbar = () => {
       <Box
         bg={"#23283e"}
         color={"whiteAlpha.800"}
-        w={"full"}
+        w={{ base: "100%", md: "full" }}
         top={0}
-        position={'fixed'}
-        zIndex={'3'}
+        position={{ base: "fixed", md: "fixed" }}
+        zIndex={"3"}
         display={"flex"}
         justifyContent={"space-between"}
         alignItems={"center"}
-        h={"3rem"}
-        fontWeight={'bold'}
+        h={{ md: "4rem" }}
+        fontWeight={"bold"}
       >
         <Box ml={"1rem"}>VKumar</Box>
         <Box
           display={{ base: "none", sm: "flex", md: "flex" }}
           alignItems={"center"}
           cursor={"pointer"}
+          fontSize={"xl"}
           gap={{ sm: "1rem", md: "2rem" }}
         >
           <Box>Home</Box>
@@ -34,9 +35,20 @@ const Navbar = () => {
           <Box>Projects</Box>
           <Box>Contact</Box>
           <Box>
-            <Button variant={"ghost"}>
-              <HiDownload /> Resume
-            </Button>
+            <HiDownload />
+            <a href="http://localhost:3000/Vivek-Kumar-Resume.pdf" download>
+              <Button
+                onClick={() =>
+                  window.open(
+                    "http://localhost:3000/Vivek-Kumar-Resume.pdf",
+                    "_blank"
+                  )
+                }
+                variant={"ghost"}
+              >
+                Resume
+              </Button>
+            </a>
           </Box>
         </Box>
         <Box mr={"1rem"} display={{ sm: "none", md: "none" }}>
@@ -53,11 +65,11 @@ const Navbar = () => {
         <Box
           display={"flex"}
           m={"auto"}
-          w={"20%"}
+          w={"100%"}
           flexDirection={"column"}
-          gap={"3rem"}
+          gap={{ base: "3rem" }}
           color={"#ccd6f6"}
-          fontSize={'2xl'}
+          fontSize={{ base: "2xl" }}
         >
           <Box>Home</Box>
           <Box>About</Box>
