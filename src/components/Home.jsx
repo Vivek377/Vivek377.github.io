@@ -4,12 +4,12 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Box
+    <Box id="home"
       w={{base:"100%"}}
       top={"-9rem"}
       h={{ base: "100rem" }}
       position={"absolute"}
-      color={"pink.600"}
+      color={"whiteAlpha.800"}
       bg={"#1a202c"}
     >
       <Box
@@ -27,7 +27,7 @@ const Home = () => {
         </Box>
 
         <Box ml={"1rem"}>
-          <Heading fontSize={{base:"4xl",md:"6xl"}} color={"pink.300"}>
+          <Heading id="user-detail-name" fontSize={{base:"4xl",md:"6xl"}} color={"pink.300"}>
             Vivek Kumar
           </Heading>
         </Box>
@@ -36,14 +36,14 @@ const Home = () => {
         <Text fontWeight={"bold"} fontSize={{base:"3xl",md:"4xl"}}>
           <Typed
             strings={["Full Stack Developer", "MERN Stack Developer"]}
-            typeSpeed={50}
+            typeSpeed={70}
             backSpeed={50}
             loop
           />
         </Text>
       </Box>
       <Box h={{base:"50rem"}} mt={"2rem"}>
-        <Text fontSize={"lg"} w={"60%"} m={"auto"}>
+        <Text id="user-detail-intro" fontSize={"lg"} w={"60%"} m={"auto"}>
           Aspiring Full Stack Web Developer, willing to work in a challenging
           environment. Fully passionate to work in teams and collaborate on
           various projects.

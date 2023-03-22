@@ -14,9 +14,9 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <GitStats />
       <Projects />
       <Contact />
-      <GitStats />
     </Box>
   );
 }

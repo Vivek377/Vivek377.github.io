@@ -6,9 +6,9 @@ import VirtulShop from "../assets/VirtualShop.png";
 
 const Projects = () => {
   return (
-    <Box
+    <Box data-testid="projects"
       w={{ base: "100%" }}
-      top={{ base: "28rem", md: "20rem" }}
+      top={{ base: "28rem", md: "5rem" }}
       h={{ md: "70rem" }}
       position={{ base: "relative" }}
       color={"whiteAlpha.800"}
@@ -33,26 +33,28 @@ const Projects = () => {
         p={"2rem"}
         bg={""}
         mt={"3rem"}
+        className="project-card"
       >
         <Box border={"1px solid white"} w={"50%"} borderRadius={"1rem"}>
           <Image w={"100%"} borderRadius={"1rem"} src={ObjectOPedia} />
         </Box>
         <Box w={"50%"} display={"flex"} flexDirection={"column"}>
           <Center>
-            <Text fontWeight={"semibold"} fontSize={"4xl"}>
+            <Text className="project-title" fontWeight={"semibold"} fontSize={"4xl"}>
               ObjectOpedia
             </Text>
           </Center>
           <Box lineHeight={"2rem"} textAlign={"justify"}>
-            <Box>
+            <Box className="project-description">
               Group project, Sign in with google, Admin panel also added
             </Box>
-            <Box>React, Redux, Chakra-ui</Box>
+            <Box className="project-tech-stack">React, Redux, Chakra-ui</Box>
             <Box display={"flex"} gap={"1rem"}>
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
                 border={"1px solid white"}
+                className="project-deployed-link"
                 onClick={() =>
                   window.open(
                     "https://zippy-question-7549.vercel.app/",
@@ -66,6 +68,7 @@ const Projects = () => {
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
                 border={"1px solid white"}
+                className="project-github-link"
                 onClick={() =>
                   window.open(
                     "https://github.com/SubodhSingh8543/zippy-question-7549",
@@ -91,26 +94,28 @@ const Projects = () => {
         p={"2rem"}
         bg={""}
         mt={"3rem"}
+        className="project-card"
       >
         <Box border={"1px solid white"} w={"50%"} borderRadius={"1rem"}>
           <Image w={"100%"} borderRadius={"1rem"} src={VirtulShop} />
         </Box>
         <Box w={"50%"} display={"flex"} flexDirection={"column"}>
           <Center>
-            <Text fontWeight={"semibold"} fontSize={"4xl"}>
+            <Text className="project-title" fontWeight={"semibold"} fontSize={"4xl"}>
               Vitual-Shop
             </Text>
           </Center>
           <Box lineHeight={"2rem"} textAlign={"justify"}>
-            <Box>
+            <Box className="project-description">
               Group project, Sign in with google, Admin panel also added
             </Box>
-            <Box>React, Redux, Chakra-ui</Box>
+            <Box className="project-tech-stack">React, Redux, Chakra-ui</Box>
             <Box display={"flex"} gap={"1rem"}>
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
                 border={"1px solid white"}
+                className="project-deployed-link"
                 onClick={() =>
                   window.open("https://minishop-nine.vercel.app/", "_blank")
                 }
@@ -121,6 +126,7 @@ const Projects = () => {
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
                 border={"1px solid white"}
+                className="project-github-link"
                 onClick={() =>
                   window.open(
                     "https://github.com/Sachin1yadav/Virtual-Shop",
@@ -144,24 +150,26 @@ const Projects = () => {
         border={"1.5px solid white"}
         p={"2rem"}
         mt={"3rem"}
+        className="project-card"
       >
         <Box border={"1px solid white"} w={"50%"} borderRadius={"1rem"}>
           <Image w={"100%"} borderRadius={"1rem"} src={fabbag} />
         </Box>
         <Box w={"50%"} display={"flex"} flexDirection={"column"}>
           <Center>
-            <Text fontWeight={"semibold"} fontSize={"4xl"}>
+            <Text className="project-title" fontWeight={"semibold"} fontSize={"4xl"}>
               FabBag-Clone
             </Text>
           </Center>
-          <Box lineHeight={"2rem"} textAlign={"justify"}>
+          <Box className="project-description" lineHeight={"2rem"} textAlign={"justify"}>
             <Box>Group project, e-commerce, completed in 5 days</Box>
-            <Box>HTML, CSS, JS</Box>
+            <Box className="project-tech-stack">HTML, CSS, JS</Box>
             <Box display={"flex"} gap={"1rem"}>
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
                 border={"1px solid white"}
+                className="project-deployed-link"
                 onClick={() =>
                   window.open(
                     "https://unique-cranachan-f05ef7.netlify.app/",
@@ -175,6 +183,7 @@ const Projects = () => {
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
                 border={"1px solid white"}
+                className="project-github-link"
                 onClick={() =>
                   window.open(
                     "https://github.com/Parag2510/verdant-straw-7365",

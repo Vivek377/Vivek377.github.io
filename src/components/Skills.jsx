@@ -1,9 +1,4 @@
-import {
-  Box,
-  Image,
-  SimpleGrid,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 import css from "../assets/css.png";
 import firebase from "../assets/firebase.png";
@@ -18,6 +13,7 @@ import typescript from "../assets/typescript.png";
 
 const Skills = () => (
   <Box
+    data-testid="skills"
     w={{ base: "100%" }}
     top={{ base: "28rem", md: "20rem" }}
     // h={"100%"}
@@ -31,50 +27,42 @@ const Skills = () => (
       </Text>
     </Box>
 
-    <Box w={{ md: "70%" }} m={{ md: "auto" }} mt={{ md: "4rem" }}>
-      <SimpleGrid columns={{ base: "2", sm: "3", md: "5" }} spacing={10}>
-        <Box>
-          <Image w={"4rem"} src={css} />
+    <Box w={{ md: "70%" }} m={{ md: "auto" }} mt={{ md: "5rem" }}>
+      <SimpleGrid columns={{ base: "2", sm: "3", md: "4" }} spacing={20}>
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={css} />
           CSS
         </Box>
-        <Box>
-          <Image w={"4rem"} src={firebase} />
-          Firebase/Auth
-        </Box>
-        <Box>
-          <Image w={"4rem"} src={mongo} />
+
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={mongo} />
           MongoDB
         </Box>
-        <Box>
-          <Image w={"4rem"} src={node} />
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={node} />
           Nodejs
         </Box>
-        <Box>
-          <Image w={"4rem"} src={react} />
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={react} />
           React
         </Box>
-        <Box>
-          <Image w={"4rem"} src={javascript} />
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={javascript} />
           JavaScript
         </Box>
-        <Box>
-          <Image w={"4rem"} src={express} />
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={express} />
           Express
         </Box>
 
-        <Box>
-          <Image w={"4rem"} src={html} />
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={html} />
           HTML
         </Box>
-        <Box>
-          <Image w={"4rem"} src={redux} />
+        <Box className="skills-card-name">
+          <Image className="skills-card-img" w={"4rem"} src={redux} />
           Redux
         </Box>
-        <Box>
-          <Image w={"4rem"} src={typescript} />
-          Typescript
-        </Box>
-        <Box w={"4rem"}>{/* <Image src={}/> */}</Box>
       </SimpleGrid>
     </Box>
   </Box>

@@ -7,7 +7,7 @@ import { GiCancel } from "react-icons/gi";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   return (
-    <Box>
+    <Box id="nav-menu">
       <Box
         bg={"#23283e"}
         color={"whiteAlpha.800"}
@@ -29,22 +29,25 @@ const Navbar = () => {
           fontSize={"xl"}
           gap={{ sm: "1rem", md: "2rem" }}
         >
-          <Box>Home</Box>
-          <Box>About</Box>
-          <Box>Skills</Box>
-          <Box>Projects</Box>
-          <Box>Contact</Box>
-          <Box>
+          <Box id="nav-link home">Home</Box>
+          <Box id="nav-link about">About</Box>
+          <Box id="nav-link skills">Skills</Box>
+          <Box id="nav-link projects">Projects</Box>
+          <Box id="nav-link contact">Contact</Box>
+          <Box id="nav-link resume">
             <HiDownload />
             <a href="http://localhost:3000/Vivek-Kumar-Resume.pdf" download>
               <Button
+                variant={"ghost"}
+                _hover={{ color: "black", bg: "white" }}
+                border={"1px solid white"}
+                id="resume-button-1"
                 onClick={() =>
                   window.open(
                     "http://localhost:3000/Vivek-Kumar-Resume.pdf",
                     "_blank"
                   )
                 }
-                variant={"ghost"}
               >
                 Resume
               </Button>
