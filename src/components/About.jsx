@@ -6,34 +6,43 @@ const About = () => {
   return (
     <Box
       id="about section"
-      w={{ base: "100%" }}
-      top={{ base: "28rem", md: "20rem" }}
-      // h={"100%"}
+      w={{ base: "28rem", md: "full", sm: "full" }}
+      top={{ base: "5rem", md: "30rem" }}
+      h={{ base: "70rem",md:"20rem" }}
       position={{ base: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
     >
-      <Box w={{ base: "12rem", md: "15rem" }} m={"auto"} mt={{ base: "12rem" }}>
-        <Text fontWeight={"semibold"} fontSize={"4xl"}>
+      <Box
+        w={{ base: "fit-content", md: "15rem" }}
+        m={{ sm: "auto" }}
+        ml={"5rem"}
+      >
+        <Text fontWeight={{base:"bold",md:"semibold"}} color={"blue.500"} fontSize={{ base: "4xl", md: "4xl" }}>
           About Me
         </Text>
       </Box>
       <Box
-        w={{ base: "60%" }}
-        m={{ base: "auto" }}
+        w={{ base: "100%", md: "80%" }}
+        m={{ base: "auto",md:"auto" }}
         mt={{ base: "4rem" }}
-        display={{ sm: "flex", md: "flex" }}
+        ml={{ base: "1rem" }}
+        display={{ md: "flex" }}
+        alignItems={"center"}
+        boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+        p={"2rem"}
+        borderRadius={"1rem"}
       >
         <Box w={{ base: "30rem" }}>
           <Image
             data-testid="home-img"
             borderRadius={"10%"}
-            w={{ base: "13rem", sm: "3rem", md: "9rem" }}
+            w={{ base: "16rem", sm: "15rem", md: "12rem" }}
             src={mypic}
           />
         </Box>
-        <Box mt={{ base: "2rem" }} w={{ md: "60rem" }}>
-          <Text fontWeight={"semibold"} fontSize={"lg"}>
+        <Box mt={{ base: "2rem" }} w={{ md: "55rem" }}>
+          <Text fontWeight={{md:"semibold"}} fontSize={{ base: "xl", md: "lg" }}>
             dedicated full stack web developer who is always passionate about
             learning new things. A good leader and a good team player. Looking
             forward to developing products that help in making peopleʼs lives

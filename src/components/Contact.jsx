@@ -1,6 +1,5 @@
 import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
-import Lnkdin from "../assets/Lnkdin.png";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -9,28 +8,39 @@ import { IconContext } from "react-icons";
 
 const Contact = () => {
   return (
-    <Box id="contact"
-      w={{ base: "100%" }}
-      top={{ base: "28rem", md: "0rem" }}
-      h={"15rem"}
+    <Box
+      id="contact"
+      w={{ base: "28rem", sm: "full", md: "full" }}
+      top={{ base: "20rem", sm: "15rem", md: "0rem" }}
+      h={{ sm: "40rem", md: "15rem" }}
       position={{ base: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
     >
       <Box w={{ base: "12rem", md: "10rem" }} m={"auto"} mt={{ base: "12rem" }}>
-        <Text fontWeight={"semibold"} fontSize={"4xl"}>
+        <Text fontWeight={{base:"bold",md:"semibold"}} color={"blue.500"} fontSize={{ base: "4xl", md: "4xl" }}>
           Contact
         </Text>
       </Box>
       <Box
-        display={"flex"}
-        w={{ md: "50%" }}
-        m={{ md: "auto" }}
-        mt={{ md: "4rem" }}
+      // display={"flex"}
+      // w={{ sm: "50%", md: "50%" }}
+      // m={{ sm: "auto", md: "auto" }}
+      mt={{ base:"4rem", sm: "4rem", md: "4rem" }}
       >
-        <SimpleGrid columns={{ base: "2", sm: "3", md: "4" }} spacing={200}>
-          <Box id="contact-linkedin"
+        <SimpleGrid
+          w={{ base: "80%" }}
+          m={{ base: "auto" }}
+          columns={{ base: "2", sm: "2", md: "4" }}
+          spacing={{ base: 100, sm: 120, md: 200 }}
+        >
+          <Box
+            id="contact-linkedin"
             cursor={"pointer"}
+            boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+            p={"2rem"}
+            w={"7rem"}
+            borderRadius={"1rem"}
             onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/vivek-kumar-7843b4216/",
@@ -43,25 +53,41 @@ const Contact = () => {
             </IconContext.Provider>
           </Box>
           <Box
-          id="contact-github"
+            id="contact-github"
             cursor={"pointer"}
+            boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+            borderRadius={"1rem"}
+            p={"2rem"}
+            w={{ sm: "7rem", md: "7rem" }}
             onClick={() => window.open("https://github.com/Vivek377", "_blank")}
           >
             <IconContext.Provider value={{ size: "3rem" }}>
               <BsGithub width={"3rem"} />
             </IconContext.Provider>
           </Box>
-          <Box id="contact-email"
+          <Box
+            id="contact-email"
             cursor={"pointer"}
+            boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+            p={"2rem"}
+            borderRadius={"1rem"}
+            w={"7rem"}
             onClick={() => window.open("mailto:vk640890@gmail.com", "_blank")}
           >
             <IconContext.Provider value={{ size: "3rem" }}>
               <AiOutlineMail width={"3rem"} />
             </IconContext.Provider>
           </Box>
-          <Box id="contact-phone"
+          <Box
+            id="contact-phone"
             cursor={"pointer"}
-            onClick={() => window.open("whatsapp://send?phone=9667215291", "_blank")}
+            boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+            borderRadius={"1rem"}
+            p={"2rem"}
+            w={"7rem"}
+            onClick={() =>
+              window.open("whatsapp://send?phone=9667215291", "_blank")
+            }
           >
             <IconContext.Provider value={{ size: "3rem" }}>
               <BsWhatsapp width={"3rem"} />
