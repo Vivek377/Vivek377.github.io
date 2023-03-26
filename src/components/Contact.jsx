@@ -10,29 +10,37 @@ const Contact = () => {
   return (
     <Box
       id="contact"
-      w={{ base: "28rem", sm: "full", md: "full" }}
+      w={{ base: "lg", sm: "full", md: "full" }}
       top={{ base: "20rem", sm: "15rem", md: "0rem" }}
-      h={{ sm: "40rem", md: "15rem" }}
-      position={{ base: "relative" }}
+      h={{ sm: "40rem", md: "20rem" }}
+      position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
     >
-      <Box w={{ base: "12rem", md: "10rem" }} m={"auto"} mt={{ base: "12rem" }}>
-        <Text fontWeight={{base:"bold",md:"semibold"}} color={"blue.500"} fontSize={{ base: "4xl", md: "4xl" }}>
+      <Box
+        w={{ base: "12rem", sm: "fit-content", md: "10rem" }}
+        m={"auto"}
+        mt={{ base: "12rem" }}
+      >
+        <Text
+          fontWeight={{ base: "bold", md: "semibold" }}
+          color={"blue.500"}
+          fontSize={{ base: "4xl", md: "4xl" }}
+        >
           Contact
         </Text>
       </Box>
       <Box
-      // display={"flex"}
-      // w={{ sm: "50%", md: "50%" }}
-      // m={{ sm: "auto", md: "auto" }}
-      mt={{ base:"4rem", sm: "4rem", md: "4rem" }}
+        // display={"flex"}
+        // w={{ sm: "fit-content", md: "50%" }}
+        // m={{ sm: "auto", md: "auto" }}
+        mt={{ base: "4rem", sm: "4rem", md: "4rem" }}
       >
         <SimpleGrid
           w={{ base: "80%" }}
-          m={{ base: "auto" }}
+          m={{ base: "auto", sm: "auto" }}
           columns={{ base: "2", sm: "2", md: "4" }}
-          spacing={{ base: 100, sm: 120, md: 200 }}
+          spacing={{ base: 100, sm: 150, md: 200 }}
         >
           <Box
             id="contact-linkedin"

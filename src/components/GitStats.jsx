@@ -5,19 +5,23 @@ import { Box, Image, Text } from "@chakra-ui/react";
 const GitStats = () => {
   return (
     <Box
-      w={{ base: "28rem", sm: "full", md: "full" }}
-      top={{ base: "28rem", md: "10rem" }}
+      w={{ base: "lg", sm: "full", md: "full" }}
+      top={{ base: "28rem", md: "-10rem" }}
       h={{ base: "75rem" }}
-      position={{ base: "relative" }}
+      position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
     >
       <Box
-        w={{ base: "25rem", sm: "20rem", md: "20rem" }}
-        m={"auto"}
+        w={{ base: "fit-content", sm: "fit-content", md: "20rem" }}
+        m={{ base: "auto", md: "auto", sm: "auto" }}
         mt={{ base: "5rem" }}
       >
-        <Text fontWeight={{base:"bold",md:"semibold"}} color={"blue.500"} fontSize={{ base: "4xl", md: "4xl" }}>
+        <Text
+          fontWeight={{ base: "bold", md: "semibold" }}
+          color={"blue.500"}
+          fontSize={{ base: "4xl", md: "4xl" }}
+        >
           My GitHub Stats
         </Text>
       </Box>

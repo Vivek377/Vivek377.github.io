@@ -12,14 +12,18 @@ import redux from "../assets/redux.png";
 const Skills = () => (
   <Box
     id="skills"
-    w={{ base: "28rem", sm: "full", md: "full" }}
-    top={{ base: "28rem", md: "none" }}
+    w={{ base: "lg", sm: "full", md: "full" }}
+    top={{ base: "-10rem", md: "none" }}
     h={{ base: "100%", md: "40rem" }}
-    position={{ base: "relative" }}
+    position={{ base: "relative", md: "relative" }}
     color={"whiteAlpha.800"}
     bg={"#1a202c"}
   >
-    <Box w={{ base: "12rem", md: "15rem" }} m={"auto"} mt={{ base: "12rem" }}>
+    <Box
+      w={{ base: "12rem", sm: "fit-content", md: "15rem" }}
+      m={"auto"}
+      mt={{ base: "12rem" }}
+    >
       <Text
         fontWeight={{ base: "bold", md: "semibold" }}
         color={"blue.500"}

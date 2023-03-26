@@ -2,22 +2,26 @@ import { Box, Button, Center, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import ObjectOPedia from "../assets/ObjectOPedia.png";
 import fabbag from "../assets/fabbag.png";
-import VirtulShop from "../assets/VirtualShop.png";
+import VirtualShop from "../assets/VirtualShop.png";
 import DeccanHerald from "../assets/DeccanHerald.png";
 
 const Projects = () => {
   return (
     <Box
       id="projects"
-      w={{ base: "28rem", md: "full" }}
-      top={{ base: "28rem", md: "20rem" }}
+      w={{ base: "lg", sm: "full", md: "full" }}
+      top={{ base: "28rem", md: "-20rem" }}
       h={{ md: "90rem" }}
-      position={{ base: "relative" }}
+      position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
       mb={"10rem"}
     >
-      <Box w={{ base: "12rem", md: "15rem" }} m={"auto"} mt={{ base: "12rem" }}>
+      <Box
+        w={{ base: "fit-content", sm: "fit-content", md: "15rem" }}
+        m={{ base: "auto", sm: "auto", md: "auto" }}
+        mt={{ base: "12rem" }}
+      >
         <Text
           fontWeight={{ base: "bold", md: "semibold" }}
           color={"blue.500"}
@@ -42,7 +46,7 @@ const Projects = () => {
       >
         <Box border={"1px solid white"} w={{ md: "50%" }} borderRadius={"1rem"}>
           <Image
-            w={{ base: "20rem", md: "100%" }}
+            w={{ base: "20rem", sm: "100%", md: "100%" }}
             borderRadius={"1rem"}
             src={ObjectOPedia}
           />
@@ -63,12 +67,22 @@ const Projects = () => {
               ObjectOpedia
             </Text>
           </Center>
-          <Box lineHeight={"2rem"} textAlign={"justify"}>
+          <Box
+            w={{ sm: "fit-content" }}
+            m={{ sm: "auto" }}
+            lineHeight={"2rem"}
+            textAlign={{ sm: "center", md: "justify" }}
+          >
             <Box className="project-description">
               Group project, Sign in with google, Admin panel also added
             </Box>
             <Box className="project-tech-stack">React, Redux, Chakra-ui</Box>
-            <Box display={"flex"} gap={"1rem"}>
+            <Box
+              w={{ sm: "fit-content" }}
+              m={{ sm: "auto" }}
+              display={"flex"}
+              gap={"1rem"}
+            >
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
@@ -115,7 +129,7 @@ const Projects = () => {
         className="project-card"
       >
         <Box border={"1px solid white"} w={{ md: "50%" }} borderRadius={"1rem"}>
-          <Image w={"100%"} borderRadius={"1rem"} src={VirtulShop} />
+          <Image w={"100%"} borderRadius={"1rem"} src={VirtualShop} />
         </Box>
         <Box
           w={{ md: "50%" }}
@@ -133,12 +147,17 @@ const Projects = () => {
               Vitual-Shop
             </Text>
           </Center>
-          <Box lineHeight={"2rem"} textAlign={"justify"}>
+          <Box lineHeight={"2rem"} textAlign={{ sm: "center", md: "justify" }}>
             <Box className="project-description">
               Group project, Sign in with google, Admin panel also added
             </Box>
             <Box className="project-tech-stack">React, Redux, Chakra-ui</Box>
-            <Box display={"flex"} gap={"1rem"}>
+            <Box
+              w={{ sm: "fit-content" }}
+              m={{ sm: "auto" }}
+              display={"flex"}
+              gap={"1rem"}
+            >
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
@@ -201,11 +220,16 @@ const Projects = () => {
           <Box
             className="project-description"
             lineHeight={"2rem"}
-            textAlign={"justify"}
+            textAlign={{ sm: "center", md: "justify" }}
           >
             <Box>Group project, e-commerce, completed in 5 days</Box>
             <Box className="project-tech-stack">HTML, CSS, JS</Box>
-            <Box display={"flex"} gap={"1rem"}>
+            <Box
+              w={{ sm: "fit-content" }}
+              m={{ sm: "auto" }}
+              display={"flex"}
+              gap={"1rem"}
+            >
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
@@ -271,11 +295,16 @@ const Projects = () => {
           <Box
             className="project-description"
             lineHeight={"2rem"}
-            textAlign={"justify"}
+            textAlign={{ sm: "center", md: "justify" }}
           >
             <Box>individual project, static website</Box>
             <Box className="project-tech-stack">HTML, CSS, JS</Box>
-            <Box display={"flex"} gap={"1rem"}>
+            <Box
+              w={{ sm: "fit-content" }}
+              m={{ sm: "auto" }}
+              display={"flex"}
+              gap={"1rem"}
+            >
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
