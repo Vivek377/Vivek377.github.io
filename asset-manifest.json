@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0e6943d.css",
-    "main.js": "/static/js/main.ccd69d8f.js",
+    "main.css": "/static/css/main.562625c4.css",
+    "main.js": "/static/js/main.e4ce416e.js",
     "static/media/ObjectOPedia.png": "/static/media/ObjectOPedia.6a4168a4a420aeb9c69a.png",
     "static/media/DeccanHerald.png": "/static/media/DeccanHerald.efc0a7febb104838fbb3.png",
     "static/media/VirtualShop.png": "/static/media/VirtualShop.6186140bb757881752de.png",
@@ -16,11 +16,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.d0e6943d.css.map": "/static/css/main.d0e6943d.css.map",
-    "main.ccd69d8f.js.map": "/static/js/main.ccd69d8f.js.map"
+    "main.562625c4.css.map": "/static/css/main.562625c4.css.map",
+    "main.e4ce416e.js.map": "/static/js/main.e4ce416e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0e6943d.css",
-    "static/js/main.ccd69d8f.js"
+    "static/css/main.562625c4.css",
+    "static/js/main.e4ce416e.js"
   ]
 }
