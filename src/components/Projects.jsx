@@ -10,7 +10,7 @@ const Projects = () => {
     <Box
       id="projects"
       w={{ base: "lg", sm: "full", md: "full" }}
-      top={{ base: "28rem", md: "-20rem" }}
+      top={{ base: "28rem", md: "-10rem" }}
       h={{ md: "90rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
@@ -46,7 +46,7 @@ const Projects = () => {
       >
         <Box border={"1px solid white"} w={{ md: "50%" }} borderRadius={"1rem"}>
           <Image
-            w={{ base: "20rem", sm: "100%", md: "100%" }}
+            w={{ base: "22rem", sm: "100%", md: "100%" }}
             borderRadius={"1rem"}
             src={ObjectOPedia}
           />

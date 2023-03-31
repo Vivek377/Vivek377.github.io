@@ -66,7 +66,7 @@ const Contact = () => {
             boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
             borderRadius={"1rem"}
             p={"2rem"}
-            w={{ sm: "7rem", md: "7rem" }}
+            w={{ base:"7rem", sm: "7rem", md: "7rem" }}
             onClick={() => window.open("https://github.com/Vivek377", "_blank")}
           >
             <IconContext.Provider value={{ size: "3rem" }}>

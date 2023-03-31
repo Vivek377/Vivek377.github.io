@@ -18,6 +18,7 @@ const Skills = () => (
     position={{ base: "relative", md: "relative" }}
     color={"whiteAlpha.800"}
     bg={"#1a202c"}
+    mb={'2rem'}
   >
     <Box
       w={{ base: "12rem", sm: "fit-content", md: "15rem" }}
@@ -34,8 +35,8 @@ const Skills = () => (
     </Box>
 
     <Box
-      w={{ md: "70%" }}
-      m={{ md: "auto" }}
+      w={{ base:"60%", md: "70%" }}
+      m={{ base:"auto", md: "auto" }}
       mt={{ base: "4rem", sm: "5rem", md: "5rem" }}
     >
       <SimpleGrid columns={{ base: "2", sm: "2", md: "4" }} spacing={20}>

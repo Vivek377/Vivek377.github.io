@@ -27,17 +27,20 @@ const About = () => {
           </Text>
         </Box>
         <Box
-          w={{ base: "100%", sm: "80%", md: "80%" }}
-          m={{ base: "auto", sm: "auto", md: "auto" }}
+          w={"80%"}
+          ml={"0rem"}
+          m={{ base: "0", md: "auto" }}
           mt={{ base: "4rem", sm: "5rem" }}
-          ml={{ base: "1rem" }}
           display={{ md: "flex" }}
           alignItems={"center"}
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
           p={"2rem"}
           borderRadius={"1rem"}
         >
-          <Box w={{ base: "30rem", sm: "50%" }} m={{ sm: "auto" }}>
+          <Box
+            w={{ base: "30rem", sm: "50%" }}
+            m={{ base: "auto", sm: "auto" }}
+          >
             <Image
               data-testid="home-img"
               borderRadius={"10%"}
@@ -55,25 +58,30 @@ const About = () => {
               developing products that help in making peopleʼs lives better and
               becoming an integral part of an organization that helps me grow.
             </Text>
-          </Box>
-          <Box
-            w={{ base: "fit-content", sm: "fit-content" }}
-            m={{ base: "auto", sm: "auto" }}
-          >
-            <Button
-              variant={"ghost"}
-              _hover={{ color: "black", bg: "white" }}
-              border={"1px solid white"}
-              id="resume-button-2"
-              onClick={() =>
-                window.open(
-                  "http://localhost:3000/Vivek-Kumar-Resume.pdf",
-                  "_blank"
-                )
-              }
+            <Box
+              w={{ base: "fit-content", sm: "fit-content" }}
+              m={{ base: "auto", sm: "auto" }}
             >
-              Resume
-            </Button>
+              <a
+                href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf"
+                download
+              >
+                <Button
+                  variant={"ghost"}
+                  _hover={{ color: "black", bg: "white" }}
+                  border={"1px solid white"}
+                  id="resume-button-2"
+                  onClick={() =>
+                    window.open(
+                      "https://vivek377.github.io/Vivek-Kumar-Resume.pdf",
+                      "_blank"
+                    )
+                  }
+                >
+                  Resume
+                </Button>
+              </a>
+            </Box>
           </Box>
         </Box>
       </Box>

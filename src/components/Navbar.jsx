@@ -87,7 +87,7 @@ const Navbar = () => {
             </Link>
           </Box>
           <Box id="nav-link resume">
-            <a href="http://localhost:3000/Vivek-Kumar-Resume.pdf" download>
+            <a href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf" download>
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
@@ -95,7 +95,7 @@ const Navbar = () => {
                 id="resume-button-1"
                 onClick={() =>
                   window.open(
-                    "http://localhost:3000/Vivek-Kumar-Resume.pdf",
+                    "https://vivek377.github.io/Vivek-Kumar-Resume.pdf",
                     "_blank"
                   )
                 }
@@ -200,7 +200,7 @@ const Navbar = () => {
           </Link>
         </Box>
         <Box>
-          <a href="http://localhost:3000/Vivek-Kumar-Resume.pdf" download>
+          <a href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf" download>
             <Button
               variant={"ghost"}
               _hover={{ color: "black", bg: "white" }}
@@ -209,7 +209,7 @@ const Navbar = () => {
               onClick={() => {
                 setNav(false);
                 window.open(
-                  "http://localhost:3000/Vivek-Kumar-Resume.pdf",
+                  "https://vivek377.github.io/Vivek-Kumar-Resume.pdf",
                   "_blank"
                 );
               }}
