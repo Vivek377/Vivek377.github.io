@@ -31,7 +31,7 @@ const Navbar = () => {
           fontSize={{ sm: "md", md: "xl" }}
           gap={{ sm: "1rem", md: "2rem" }}
         >
-          <Box id=".nav-link.home">
+          <Box className="nav-link home">
             <Link
               smooth={true}
               duration={1000}
@@ -42,7 +42,7 @@ const Navbar = () => {
               Home
             </Link>
           </Box>
-          <Box id=".nav-link.about">
+          <Box className="nav-link about">
             <Link
               smooth={true}
               duration={1000}
@@ -53,7 +53,7 @@ const Navbar = () => {
               About
             </Link>
           </Box>
-          <Box id=".nav-link.skills">
+          <Box className="nav-link skills">
             <Link
               smooth={true}
               duration={1000}
@@ -64,7 +64,7 @@ const Navbar = () => {
               Skills
             </Link>
           </Box>
-          <Box id=".nav-link.projects">
+          <Box className="nav-link projects">
             <Link
               smooth={true}
               duration={1000}
@@ -75,7 +75,7 @@ const Navbar = () => {
               Projects
             </Link>
           </Box>
-          <Box id=".nav-link.contact">
+          <Box className="nav-link contact">
             <Link
               smooth={true}
               duration={1000}
@@ -86,7 +86,7 @@ const Navbar = () => {
               Contact
             </Link>
           </Box>
-          <Box id="nav-link resume">
+          <Box className="nav-link resume">
             <a href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf" download>
               <Button
                 variant={"ghost"}

@@ -40,6 +40,7 @@ const About = () => {
           <Box
             w={{ base: "30rem", sm: "50%" }}
             m={{ base: "auto", sm: "auto" }}
+            className="home-img"
           >
             <Image
               data-testid="home-img"
@@ -61,6 +62,7 @@ const About = () => {
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
               m={{ base: "auto", sm: "auto" }}
+              id="resume-button-2"
             >
               <a
                 href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf"

@@ -45,7 +45,7 @@ const Skills = () => (
           p={"1rem"}
           textAlign={"center"}
           borderRadius={"1rem"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
@@ -62,7 +62,7 @@ const Skills = () => (
           borderRadius={"1rem"}
           p={"1rem"}
           textAlign={"center"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
@@ -111,7 +111,7 @@ const Skills = () => (
           borderRadius={"1rem"}
           p={"1rem"}
           textAlign={"center"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
@@ -127,7 +127,7 @@ const Skills = () => (
           borderRadius={"1rem"}
           p={"1rem"}
           textAlign={"center"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
@@ -144,7 +144,7 @@ const Skills = () => (
           p={"1rem"}
           borderRadius={"1rem"}
           textAlign={"center"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
@@ -160,7 +160,7 @@ const Skills = () => (
           p={"1rem"}
           borderRadius={"1rem"}
           textAlign={"center"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
