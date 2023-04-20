@@ -38,9 +38,8 @@ const Navbar = () => {
               spy={true}
               hashSpy={true}
               to="home"
-              classID="nav-link home"
             >
-              Home
+              <div className="nav-link home">Home</div>
             </Link>
           </Box>
           <Box>
@@ -92,7 +91,10 @@ const Navbar = () => {
             </Link>
           </Box>
           <Box>
-            <a href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf" download>
+            <a
+              href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf"
+              download
+            >
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
