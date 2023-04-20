@@ -31,31 +31,34 @@ const Navbar = () => {
           fontSize={{ sm: "md", md: "xl" }}
           gap={{ sm: "1rem", md: "2rem" }}
         >
-          <Box className="nav-link home">
+          <Box>
             <Link
               smooth={true}
               duration={1000}
               spy={true}
               hashSpy={true}
               to="home"
+              className="nav-link home"
             >
               Home
             </Link>
           </Box>
-          <Box className="nav-link about">
+          <Box>
             <Link
               smooth={true}
               duration={1000}
               spy={true}
+              className="nav-link about"
               hashSpy={true}
               to="about section"
             >
               About
             </Link>
           </Box>
-          <Box className="nav-link skills">
+          <Box>
             <Link
               smooth={true}
+              className="nav-link skills"
               duration={1000}
               spy={true}
               hashSpy={true}
@@ -64,34 +67,37 @@ const Navbar = () => {
               Skills
             </Link>
           </Box>
-          <Box className="nav-link projects">
+          <Box>
             <Link
               smooth={true}
               duration={1000}
               spy={true}
               hashSpy={true}
+              className="nav-link projects"
               to="projects"
             >
               Projects
             </Link>
           </Box>
-          <Box className="nav-link contact">
+          <Box>
             <Link
               smooth={true}
               duration={1000}
               spy={true}
               hashSpy={true}
+              className="nav-link contact"
               to="contact"
             >
               Contact
             </Link>
           </Box>
-          <Box className="nav-link resume">
+          <Box>
             <a href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf" download>
               <Button
                 variant={"ghost"}
                 _hover={{ color: "black", bg: "white" }}
                 border={"1px solid white"}
+                className="nav-link resume"
                 id="resume-button-1"
                 onClick={() =>
                   window.open(

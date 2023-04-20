@@ -4,7 +4,7 @@ import mypic from "../assets/vivek_picture.png";
 
 const About = () => {
   return (
-    <Box id="about">
+    <Box id="about" className="about section">
       <Box
         w={{ base: "lg", md: "full", sm: "full" }}
         top={{ base: "-10rem", md: "-10rem" }}
@@ -40,9 +40,9 @@ const About = () => {
           <Box
             w={{ base: "30rem", sm: "50%" }}
             m={{ base: "auto", sm: "auto" }}
-            className="home-img"
           >
             <Image
+              class="home-img"
               data-testid="home-img"
               borderRadius={"10%"}
               w={{ base: "16rem", sm: "15rem", md: "12rem" }}
