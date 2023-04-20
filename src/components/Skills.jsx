@@ -18,7 +18,7 @@ const Skills = () => (
     position={{ base: "relative", md: "relative" }}
     color={"whiteAlpha.800"}
     bg={"#1a202c"}
-    mb={'2rem'}
+    mb={"2rem"}
   >
     <Box
       w={{ base: "12rem", sm: "fit-content", md: "15rem" }}
@@ -35,8 +35,8 @@ const Skills = () => (
     </Box>
 
     <Box
-      w={{ base:"60%", md: "70%" }}
-      m={{ base:"auto", md: "auto" }}
+      w={{ base: "60%", md: "70%" }}
+      m={{ base: "auto", md: "auto" }}
       mt={{ base: "4rem", sm: "5rem", md: "5rem" }}
     >
       <SimpleGrid columns={{ base: "2", sm: "2", md: "4" }} spacing={20}>
@@ -79,7 +79,7 @@ const Skills = () => (
           borderRadius={"1rem"}
           p={"1rem"}
           textAlign={"center"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
@@ -88,14 +88,14 @@ const Skills = () => (
             w={"4rem"}
             src={node}
           />
-          Nodejs
+          <Box className="skills-card-name">Nodejs</Box>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
           borderRadius={"1rem"}
           p={"1rem"}
           textAlign={"center"}
-          className="skills-card-name"
+          className="skills-card"
         >
           <Image
             m={"auto"}
@@ -104,7 +104,7 @@ const Skills = () => (
             w={"4rem"}
             src={react}
           />
-          React
+          <Box className="skills-card-name">React</Box>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -120,7 +120,7 @@ const Skills = () => (
             w={"4rem"}
             src={javascript}
           />
-          JavaScript
+          <Box className="skills-card-name">JavaScript</Box>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -136,7 +136,7 @@ const Skills = () => (
             w={"4rem"}
             src={express}
           />
-          Express
+          <Box className="skills-card-name">Express</Box>
         </Box>
 
         <Box
@@ -153,7 +153,7 @@ const Skills = () => (
             w={"4rem"}
             src={html}
           />
-          HTML
+          <Box className="skills-card-name">HTML</Box>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -169,7 +169,7 @@ const Skills = () => (
             w={"4rem"}
             src={redux}
           />
-          Redux
+          <Box className="skills-card-name">Redux</Box>
         </Box>
       </SimpleGrid>
     </Box>

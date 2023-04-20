@@ -62,7 +62,6 @@ const About = () => {
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
               m={{ base: "auto", sm: "auto" }}
-              id="resume-button-2"
             >
               <a
                 href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf"
