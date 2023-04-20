@@ -4,7 +4,7 @@ import mypic from "../assets/vivek_picture.png";
 
 const About = () => {
   return (
-    <Box id="about" className="about section">
+    <Box id="about" class="about section">
       <Box
         w={{ base: "lg", md: "full", sm: "full" }}
         top={{ base: "-10rem", md: "-10rem" }}

@@ -38,7 +38,7 @@ const Navbar = () => {
               spy={true}
               hashSpy={true}
               to="home"
-              className="nav-link home"
+              classID="nav-link home"
             >
               Home
             </Link>
