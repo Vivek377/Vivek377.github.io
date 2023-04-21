@@ -53,6 +53,7 @@ const About = () => {
             <Text
               fontWeight={{ md: "semibold" }}
               fontSize={{ base: "xl", md: "lg" }}
+              id="user-detail-intro"
             >
               dedicated full stack web developer who is always passionate about
               learning new things. A good team player. Looking forward to
@@ -71,8 +72,8 @@ const About = () => {
                   variant={"ghost"}
                   _hover={{ color: "black", bg: "white" }}
                   border={"1px solid white"}
-                className="nav-link resume"
-                id="resume-button-2"
+                  className="nav-link resume"
+                  id="resume-button-2"
                   onClick={() =>
                     window.open(
                       "https://vivek377.github.io/Vivek-Kumar-Resume.pdf",

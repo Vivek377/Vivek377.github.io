@@ -58,7 +58,7 @@ const Home = () => {
         </Box>
         <Box h={{ base: "50rem" }} mt={"2rem"}>
           <div>
-            <Text id="user-detail-intro" fontSize={{ base: "2xl", md: "lg" }} w={"60%"} m={"auto"}>
+            <Text fontSize={{ base: "2xl", md: "lg" }} w={"60%"} m={"auto"}>
               Aspiring Full Stack Web Developer, willing to work in a
               challenging environment. Fully passionate to work in teams and
               collaborate on various projects.
