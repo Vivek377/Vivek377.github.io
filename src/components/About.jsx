@@ -71,7 +71,8 @@ const About = () => {
                   variant={"ghost"}
                   _hover={{ color: "black", bg: "white" }}
                   border={"1px solid white"}
-                  id="resume-button-2"
+                className="nav-link resume"
+                id="resume-button-2"
                   onClick={() =>
                     window.open(
                       "https://vivek377.github.io/Vivek-Kumar-Resume.pdf",
