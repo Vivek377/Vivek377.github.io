@@ -54,7 +54,7 @@ const Skills = () => (
             w={"4rem"}
             src={css}
           />
-          CSS
+          <div className="skills-card-name">CSS</div>
         </Box>
 
         <Box
@@ -72,7 +72,7 @@ const Skills = () => (
             w={"4rem"}
             src={mongo}
           />
-          MongoDB
+          <div className="skills-card-name">MongoDB</div>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -88,7 +88,7 @@ const Skills = () => (
             w={"4rem"}
             src={node}
           />
-          <Box className="skills-card-name">Nodejs</Box>
+          <div className="skills-card-name">Nodejs</div>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -104,7 +104,9 @@ const Skills = () => (
             w={"4rem"}
             src={react}
           />
-          <Box className="skills-card-name">React</Box>
+          <Box>
+            <div className="skills-card-name">React</div>
+          </Box>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -120,7 +122,7 @@ const Skills = () => (
             w={"4rem"}
             src={javascript}
           />
-          <Box className="skills-card-name">JavaScript</Box>
+          <div className="skills-card-name">JavaScript</div>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -136,7 +138,7 @@ const Skills = () => (
             w={"4rem"}
             src={express}
           />
-          <Box className="skills-card-name">Express</Box>
+          <div className="skills-card-name">Express</div>
         </Box>
 
         <Box
@@ -153,7 +155,7 @@ const Skills = () => (
             w={"4rem"}
             src={html}
           />
-          <Box className="skills-card-name">HTML</Box>
+          <div className="skills-card-name">HTML</div>
         </Box>
         <Box
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
@@ -169,7 +171,7 @@ const Skills = () => (
             w={"4rem"}
             src={redux}
           />
-          <Box className="skills-card-name">Redux</Box>
+          <div className="skills-card-name">Redux</div>
         </Box>
       </SimpleGrid>
     </Box>

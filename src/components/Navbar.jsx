@@ -155,7 +155,7 @@ const Navbar = () => {
             spy={true}
             hashSpy={true}
             to="home"
-            className="nav-link home"
+            // className="nav-link home"
             onClick={() => setNav(false)}
           >
             Home
@@ -168,7 +168,7 @@ const Navbar = () => {
             spy={true}
             hashSpy={true}
             to="about section"
-            className="nav-link about"
+            // className="nav-link about"
             onClick={() => setNav(false)}
           >
             About
@@ -181,7 +181,7 @@ const Navbar = () => {
             spy={true}
             hashSpy={true}
             to="skills"
-            className="nav-link skills"
+            // className="nav-link skills"
             onClick={() => setNav(false)}
           >
             Skills
@@ -194,7 +194,7 @@ const Navbar = () => {
             spy={true}
             hashSpy={true}
             onClick={() => setNav(false)}
-            className="nav-link projects"
+            // className="nav-link projects"
             to="projects"
           >
             Projects
@@ -207,7 +207,7 @@ const Navbar = () => {
             spy={true}
             hashSpy={true}
             onClick={() => setNav(false)}
-            className="nav-link contact"
+            // className="nav-link contact"
             to="contact"
           >
             Contact
@@ -219,8 +219,8 @@ const Navbar = () => {
               variant={"ghost"}
               _hover={{ color: "black", bg: "white" }}
               border={"1px solid white"}
-              className="nav-link resume"
-              id="resume-button-1"
+              // className="nav-link resume"
+              // id="resume-button-1"
               onClick={() => {
                 setNav(false);
                 window.open(
