@@ -59,7 +59,6 @@ const Home = () => {
         <Box h={{ base: "50rem" }} mt={"2rem"}>
           <div>
             <Text
-              id="user-detail-intro"
               fontSize={{ base: "2xl", md: "lg" }}
               w={"60%"}
               m={"auto"}

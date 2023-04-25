@@ -53,7 +53,7 @@ const About = () => {
             <Text
               fontWeight={{ md: "semibold" }}
               fontSize={{ base: "xl", md: "lg" }}
-              
+              id="user-detail-intro"
             >
               dedicated full stack web developer who is always passionate about
               learning new things. A good team player. Looking forward to
