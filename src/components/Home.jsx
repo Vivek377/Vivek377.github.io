@@ -17,6 +17,7 @@ const Home = () => {
           w={{ base: "fit-content", sm: "full", md: "60rem" }}
           display={"flex"}
           m={"auto"}
+          p={"5rem"}
           mt={"5rem"}
           alignItems={"center"}
           fontWeight={"bold"}

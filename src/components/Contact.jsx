@@ -47,7 +47,10 @@ const Contact = () => {
             cursor={"pointer"}
             boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
             p={"2rem"}
-            w={"7rem"}
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
+            w={"10rem"}
             borderRadius={"1rem"}
             onClick={() =>
               window.open(
@@ -65,8 +68,11 @@ const Contact = () => {
             cursor={"pointer"}
             boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
             borderRadius={"1rem"}
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
             p={"2rem"}
-            w={{ base: "7rem", sm: "7rem", md: "7rem" }}
+            w={"10rem"}
             onClick={() => window.open("https://github.com/Vivek377", "_blank")}
           >
             <IconContext.Provider value={{ size: "3rem" }}>
@@ -77,31 +83,37 @@ const Contact = () => {
             id="contact-email"
             cursor={"pointer"}
             boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
             p={"2rem"}
             borderRadius={"1rem"}
-            w={"7rem"}
+            w={"14rem"}
             onClick={() => window.open("mailto:vk640890@gmail.com", "_blank")}
           >
             <IconContext.Provider value={{ size: "3rem" }}>
               <AiOutlineMail width={"3rem"} />
-              vk640890@gmail.com
             </IconContext.Provider>
+            <Box>vk640890@gmail.com</Box>
           </Box>
           <Box
             id="contact-phone"
             cursor={"pointer"}
             boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
             borderRadius={"1rem"}
             p={"2rem"}
-            w={"7rem"}
+            w={"11rem"}
             onClick={() =>
               window.open("whatsapp://send?phone=9667215291", "_blank")
             }
           >
             <IconContext.Provider value={{ size: "3rem" }}>
               <BsWhatsapp width={"3rem"} />
-              9667215291
             </IconContext.Provider>
+            9667215291
           </Box>
         </SimpleGrid>
       </Box>

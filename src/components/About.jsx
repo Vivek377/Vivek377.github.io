@@ -16,8 +16,8 @@ const About = () => {
       >
         <Box
           w={{ base: "fit-content", sm: "fit-content", md: "fit-content" }}
-          m={{ sm: "auto" }}
-          ml={"5rem"}
+          m={"auto"}
+          ml={"15rem"}
         >
           <Text
             fontWeight={{ base: "bold", md: "semibold" }}
@@ -29,7 +29,7 @@ const About = () => {
         </Box>
         <Box
           w={"80%"}
-          ml={"0rem"}
+          ml={"5rem"}
           m={{ base: "0", md: "auto" }}
           mt={{ base: "4rem", sm: "5rem" }}
           display={{ md: "flex" }}
