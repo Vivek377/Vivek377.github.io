@@ -49,8 +49,8 @@ const About = () => {
               src={mypic}
             />
           </Box>
-          <Box mt={{ base: "2rem" }} w={{ md: "55rem" }}>
-            <Text
+          <div mt={{ base: "2rem" }} w={{ md: "55rem" }}>
+            <p
               fontWeight={{ md: "semibold" }}
               fontSize={{ base: "xl", md: "lg" }}
               id="user-detail-intro"
@@ -59,7 +59,7 @@ const About = () => {
               learning new things. A good team player. Looking forward to
               developing products that help in making peopleʼs lives better and
               becoming an integral part of an organization that helps me grow.
-            </Text>
+            </p>
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
               m={{ base: "auto", sm: "auto" }}
@@ -85,7 +85,7 @@ const About = () => {
                 </Button>
               </a>
             </Box>
-          </Box>
+          </div>
         </Box>
       </Box>
     </div>
