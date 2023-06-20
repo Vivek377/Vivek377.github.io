@@ -59,13 +59,15 @@ const About = () => {
               learning new things. A good team player. Looking forward to
               developing products that help in making peopleʼs lives better and
               becoming an integral part of an organization that helps me grow.
+              Having hands on learning on different tech-stacks including: HTML,
+              CSS ,JS, React, NodeJS, Mongoose.
             </Text>
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
               m={{ base: "auto", sm: "auto" }}
             >
               <a
-              id="resume-link-2"
+                id="resume-link-2"
                 href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf"
                 download
               >
