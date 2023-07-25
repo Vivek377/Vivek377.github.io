@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.562625c4.css",
-    "main.js": "/static/js/main.f45d963c.js",
+    "main.css": "/static/css/main.91e6d6a9.css",
+    "main.js": "/static/js/main.54ddbd5f.js",
     "static/media/ObjectOPedia.png": "/static/media/ObjectOPedia.6a4168a4a420aeb9c69a.png",
-    "static/media/DeccanHerald.png": "/static/media/DeccanHerald.efc0a7febb104838fbb3.png",
+    "static/media/Healthistic.png": "/static/media/Healthistic.3f91965531f411678efc.png",
     "static/media/VirtualShop.png": "/static/media/VirtualShop.6186140bb757881752de.png",
-    "static/media/fabbag.png": "/static/media/fabbag.4e16ed49915b4570c8c6.png",
+    "static/media/fashionVerge.png": "/static/media/fashionVerge.e90770e2dae6c080b8f8.png",
     "static/media/vivek_picture.png": "/static/media/vivek_picture.36fc25b87c8a9d556964.png",
     "static/media/express.png": "/static/media/express.44e99be40ced53a02362.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -16,11 +16,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.562625c4.css.map": "/static/css/main.562625c4.css.map",
-    "main.f45d963c.js.map": "/static/js/main.f45d963c.js.map"
+    "main.91e6d6a9.css.map": "/static/css/main.91e6d6a9.css.map",
+    "main.54ddbd5f.js.map": "/static/js/main.54ddbd5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.562625c4.css",
-    "static/js/main.f45d963c.js"
+    "static/css/main.91e6d6a9.css",
+    "static/js/main.54ddbd5f.js"
   ]
 }
