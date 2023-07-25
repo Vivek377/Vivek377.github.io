@@ -10,9 +10,9 @@ const Contact = () => {
   return (
     <Box
       id="contact"
-      w={{ base: "lg", sm: "full", md: "full" }}
+      // w={{ base: "lg", sm: "full", md: "full" }}
       top={{ base: "20rem", sm: "15rem", md: "0rem" }}
-      h={{ sm: "40rem", md: "20rem" }}
+      h={{ sm: "40rem", md: "30rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
@@ -21,6 +21,7 @@ const Contact = () => {
         w={{ base: "12rem", sm: "fit-content", md: "10rem" }}
         m={"auto"}
         mt={{ base: "12rem" }}
+        mb={"3rem"}
       >
         <Text
           fontWeight={{ base: "bold", md: "semibold" }}
@@ -29,6 +30,14 @@ const Contact = () => {
         >
           Contact
         </Text>
+      </Box>
+      <Box textAlign={"center"}>
+        <Text fontSize={"lg"}> vk640890@gmail.com</Text>
+        <br />
+        <Text fontSize={"lg"}>Mobile: +91 9667215291</Text>
+        <br />
+        <Text fontSize={"lg"}>Location: New Delhi, India</Text>
+        <br />
       </Box>
       <Box
         // display={"flex"}
@@ -50,7 +59,7 @@ const Contact = () => {
             display={"flex"}
             flexDirection={"column"}
             justifyContent={"center"}
-            w={"10rem"}
+            w={"8rem"}
             borderRadius={"1rem"}
             onClick={() =>
               window.open(
@@ -72,7 +81,7 @@ const Contact = () => {
             flexDirection={"column"}
             justifyContent={"center"}
             p={"2rem"}
-            w={"10rem"}
+            w={"8rem"}
             onClick={() => window.open("https://github.com/Vivek377", "_blank")}
           >
             <IconContext.Provider value={{ size: "3rem" }}>
@@ -88,13 +97,13 @@ const Contact = () => {
             justifyContent={"center"}
             p={"2rem"}
             borderRadius={"1rem"}
-            w={"14rem"}
+            w={"8rem"}
             onClick={() => window.open("mailto:vk640890@gmail.com", "_blank")}
           >
             <IconContext.Provider value={{ size: "3rem" }}>
               <AiOutlineMail width={"3rem"} />
             </IconContext.Provider>
-            <Box>vk640890@gmail.com</Box>
+            {/* <Box>vk640890@gmail.com</Box> */}
           </Box>
           <Box
             id="contact-phone"
@@ -105,7 +114,7 @@ const Contact = () => {
             justifyContent={"center"}
             borderRadius={"1rem"}
             p={"2rem"}
-            w={"11rem"}
+            w={"7rem"}
             onClick={() =>
               window.open("whatsapp://send?phone=9667215291", "_blank")
             }
@@ -113,7 +122,7 @@ const Contact = () => {
             <IconContext.Provider value={{ size: "3rem" }}>
               <BsWhatsapp width={"3rem"} />
             </IconContext.Provider>
-            9667215291
+            {/* 9667215291 */}
           </Box>
         </SimpleGrid>
       </Box>

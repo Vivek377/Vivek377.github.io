@@ -6,12 +6,13 @@ const Home = () => {
   return (
     <Box id="home">
       <Box
-        w={{ base: "lg", md: "full", sm: "full" }}
+        // w={{ base: "lg", md: "full", sm: "full" }}
         top={{ base: "-1rem", sm: "-2rem", md: "-1rem" }}
-        h={{ base: "auto", md: "50rem" }}
+        // h={{ base: "auto", md: "50rem" }}
         position={{ base: "relative", md: "relative" }}
         color={"whiteAlpha.800"}
         bg={"#1a202c"}
+        fontFamily={"sans-serif"}
       >
         <Box
           w={{ base: "fit-content", sm: "full", md: "60rem" }}

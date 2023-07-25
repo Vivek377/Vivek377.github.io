@@ -16,12 +16,14 @@ const Navbar = () => {
         position={{ base: "fixed", sm: "fixed", md: "fixed" }}
         zIndex={"3"}
         display={"flex"}
-        justifyContent={"space-between"}
+        justifyContent={"space-around"}
+        gap={"19rem"}
         alignItems={"center"}
         h={{ base: "4rem", sm: "3rem", md: "4rem" }}
         fontWeight={"bold"}
+        fontFamily={"sans-serif"}
       >
-        <Box fontSize={{ base: "xl", sm: "md", md: "xl" }} ml={"1rem"}>
+        <Box fontSize={{ base: "xl", sm: "md", md: "xl" }} ml={"0rem"}>
           VKumar
         </Box>
         <Box

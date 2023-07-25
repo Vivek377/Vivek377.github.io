@@ -4,15 +4,15 @@ import mypic from "../assets/vivek_picture.png";
 
 const About = () => {
   return (
-    // <Box>
-    <div id="about" className="about section">
+    <Box id="about" className="about section">
       <Box
-        w={{ base: "lg", md: "full", sm: "full" }}
+        // w={{ base: "lg", md: "full", sm: "full" }}
         top={{ base: "-10rem", md: "-10rem" }}
-        h={{ base: "auto", md: "20rem" }}
+        // h={{ base: "auto", md: "20rem" }}
         position={{ base: "relative", md: "relative" }}
         color={"whiteAlpha.800"}
         bg={"#1a202c"}
+        fontFamily={"sans-serif"}
       >
         <Box
           w={{ base: "fit-content", sm: "fit-content", md: "fit-content" }}
@@ -58,9 +58,9 @@ const About = () => {
               dedicated full stack web developer who is always passionate about
               learning new things. A good team player. Looking forward to
               developing products that help in making peopleʼs lives better and
-              becoming an integral part of an organization that helps me grow.
-              Having hands on learning on different tech-stacks including: HTML,
-              CSS ,JS, React, NodeJS, Mongoose.
+              becoming an integral part of an organization. Having hands on
+              learning on different tech-stacks including: HTML, CSS, JS, React,
+              NodeJS, Mongoose.
             </Text>
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
@@ -90,9 +90,7 @@ const About = () => {
           </Box>
         </Box>
       </Box>
-    </div>
-
-    // </Box>
+    </Box>
   );
 };
 

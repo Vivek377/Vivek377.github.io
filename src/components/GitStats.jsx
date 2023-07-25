@@ -1,13 +1,13 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 const GitStats = () => {
   return (
     <Box
-      w={{ base: "lg", sm: "full", md: "full" }}
+      // w={{ base: "lg", sm: "full", md: "full" }}
       top={{ base: "28rem", md: "-10rem" }}
-      h={{ base: "75rem" }}
+      // h={{ base: "65rem",md:"55rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}

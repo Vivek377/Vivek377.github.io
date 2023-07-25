@@ -1,20 +1,13 @@
 import { Box, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
-import css from "../assets/css.png";
-import html from "../assets/html.png";
-import javascript from "../assets/javascript.png";
-import mongo from "../assets/mongo.png";
-import node from "../assets/node.png";
-import react from "../assets/react.png";
-import express from "../assets/express.png";
-import redux from "../assets/redux.png";
+import { skills } from "../utilities/skills";
 
 const Skills = () => (
   <Box
     id="skills"
-    w={{ base: "lg", sm: "full", md: "full" }}
+    // w={{ base: "lg", sm: "full", md: "full" }}
     top={{ base: "-10rem", md: "none" }}
-    h={{ base: "100%", md: "40rem" }}
+    // h={{ base: "100%", md: "40rem" }}
     position={{ base: "relative", md: "relative" }}
     color={"whiteAlpha.800"}
     bg={"#1a202c"}
@@ -40,139 +33,27 @@ const Skills = () => (
       mt={{ base: "4rem", sm: "5rem", md: "5rem" }}
     >
       <SimpleGrid columns={{ base: "2", sm: "2", md: "4" }} spacing={20}>
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          p={"1rem"}
-          textAlign={"center"}
-          borderRadius={"1rem"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={css}
-          />
-          <div className="skills-card-name">CSS</div>
-        </Box>
-
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          borderRadius={"1rem"}
-          p={"1rem"}
-          textAlign={"center"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            borderRadius={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={mongo}
-          />
-          <div className="skills-card-name">MongoDB</div>
-        </Box>
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          borderRadius={"1rem"}
-          p={"1rem"}
-          textAlign={"center"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={node}
-          />
-          <div className="skills-card-name">Nodejs</div>
-        </Box>
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          borderRadius={"1rem"}
-          p={"1rem"}
-          textAlign={"center"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={react}
-          />
-          <Box>
-            <div className="skills-card-name">React</div>
-          </Box>
-        </Box>
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          borderRadius={"1rem"}
-          p={"1rem"}
-          textAlign={"center"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={javascript}
-          />
-          <div className="skills-card-name">JavaScript</div>
-        </Box>
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          borderRadius={"1rem"}
-          p={"1rem"}
-          textAlign={"center"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={express}
-          />
-          <div className="skills-card-name">Express</div>
-        </Box>
-
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          p={"1rem"}
-          borderRadius={"1rem"}
-          textAlign={"center"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={html}
-          />
-          <div className="skills-card-name">HTML</div>
-        </Box>
-        <Box
-          boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-          p={"1rem"}
-          borderRadius={"1rem"}
-          textAlign={"center"}
-          className="skills-card"
-        >
-          <Image
-            m={"auto"}
-            mt={"1rem"}
-            className="skills-card-img"
-            w={"4rem"}
-            src={redux}
-          />
-          <div className="skills-card-name">Redux</div>
-        </Box>
+        {skills.map((ele) => {
+          return (
+            <Box
+              boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
+              p={"1rem"}
+              textAlign={"center"}
+              borderRadius={"1rem"}
+              className="skills-card"
+              key={ele.pic}
+            >
+              <Image
+                m={"auto"}
+                mt={"1rem"}
+                className="skills-card-img"
+                w={"4rem"}
+                src={ele.pic}
+              />
+              <div className="skills-card-name">{ele.name}</div>
+            </Box>
+          );
+        })}
       </SimpleGrid>
     </Box>
   </Box>

@@ -1,3 +1,4 @@
+import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -9,7 +10,7 @@ import GitStats from './components/GitStats';
 
 function App() {
   return (
-    <Box bg={"#1a202c"} w={{ base: "lg", sm: "full", md: 'full' }}>
+    <Box bg={"#1a202c"} w={{ base: "full", sm: "full", md: 'full' }}>
       <Navbar />
       <Home />
       <About />
