@@ -39,6 +39,7 @@ const Contact = () => {
         <Text fontSize={"lg"}>Location: New Delhi, India</Text>
         <br />
       </Box>
+
       <Box
         // display={"flex"}
         // w={{ sm: "fit-content", md: "50%" }}
@@ -46,9 +47,9 @@ const Contact = () => {
         mt={{ base: "4rem", sm: "4rem", md: "4rem" }}
       >
         <SimpleGrid
-          w={{ base: "80%" }}
+          w={{ base: "100%" }}
           m={{ base: "auto", sm: "auto" }}
-          columns={{ base: "2", sm: "2", md: "4" }}
+          columns={{ base: "1", sm: "2", md: "4" }}
           spacing={{ base: 100, sm: 150, md: 200 }}
         >
           <Box
@@ -58,6 +59,7 @@ const Contact = () => {
             p={"2rem"}
             display={"flex"}
             flexDirection={"column"}
+            m={"auto"}
             justifyContent={"center"}
             w={"8rem"}
             borderRadius={"1rem"}
@@ -79,6 +81,7 @@ const Contact = () => {
             borderRadius={"1rem"}
             display={"flex"}
             flexDirection={"column"}
+            m={"auto"}
             justifyContent={"center"}
             p={"2rem"}
             w={"8rem"}
@@ -94,6 +97,7 @@ const Contact = () => {
             boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
             display={"flex"}
             flexDirection={"column"}
+            m={"auto"}
             justifyContent={"center"}
             p={"2rem"}
             borderRadius={"1rem"}
@@ -110,11 +114,12 @@ const Contact = () => {
             cursor={"pointer"}
             boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
             display={"flex"}
+            m={"auto"}
             flexDirection={"column"}
             justifyContent={"center"}
             borderRadius={"1rem"}
             p={"2rem"}
-            w={"7rem"}
+            w={"9rem"}
             onClick={() =>
               window.open("whatsapp://send?phone=9667215291", "_blank")
             }

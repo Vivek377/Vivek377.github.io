@@ -10,7 +10,7 @@ import GitStats from './components/GitStats';
 
 function App() {
   return (
-    <Box bg={"#1a202c"} w={{ base: "full", sm: "full", md: 'full' }}>
+    <Box bg={"#1a202c"} w={"full"}>
       <Navbar />
       <Home />
       <About />

@@ -11,7 +11,7 @@ const Navbar = () => {
       <Box
         bg={"#23283e"}
         color={"whiteAlpha.800"}
-        w={{ base: "full", sm: "full", md: "full" }}
+        w={"full"}
         top={0}
         position={{ base: "fixed", sm: "fixed", md: "fixed" }}
         zIndex={"3"}
@@ -138,9 +138,9 @@ const Navbar = () => {
       <Box
         m={{ base: "auto" }}
         zIndex={"9"}
-        w={{ base: "150%" }}
+        w={{ base: "full" }}
         h={{ base: "50rem" }}
-        position={{ base: "relative" }}
+        position={{ base: "fixed" }}
         top={{ base: "4rem" }}
         p={{ base: "4rem" }}
         color={"whiteAlpha.800"}

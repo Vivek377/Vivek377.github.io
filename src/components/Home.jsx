@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <Box id="home">
       <Box
-        // w={{ base: "lg", md: "full", sm: "full" }}
+        w={"full"}
         top={{ base: "-1rem", sm: "-2rem", md: "-1rem" }}
         // h={{ base: "auto", md: "50rem" }}
         position={{ base: "relative", md: "relative" }}

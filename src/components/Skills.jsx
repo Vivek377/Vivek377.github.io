@@ -14,9 +14,9 @@ const Skills = () => (
     mb={"2rem"}
   >
     <Box
-      w={{ base: "12rem", sm: "fit-content", md: "15rem" }}
-      m={"auto"}
+      w={"full"}
       mt={{ base: "12rem" }}
+      textAlign={"center"}
     >
       <Text
         fontWeight={{ base: "bold", md: "semibold" }}
@@ -32,7 +32,7 @@ const Skills = () => (
       m={{ base: "auto", md: "auto" }}
       mt={{ base: "4rem", sm: "5rem", md: "5rem" }}
     >
-      <SimpleGrid columns={{ base: "2", sm: "2", md: "4" }} spacing={20}>
+      <SimpleGrid columns={{ base: "1", sm: "2", md: "4" }} spacing={20}>
         {skills.map((ele) => {
           return (
             <Box
@@ -50,7 +50,7 @@ const Skills = () => (
                 w={"4rem"}
                 src={ele.pic}
               />
-              <div className="skills-card-name">{ele.name}</div>
+              <Box className="skills-card-name">{ele.name}</Box>
             </Box>
           );
         })}

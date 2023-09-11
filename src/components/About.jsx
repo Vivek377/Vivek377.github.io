@@ -17,7 +17,6 @@ const About = () => {
         <Box
           w={{ base: "fit-content", sm: "fit-content", md: "fit-content" }}
           m={"auto"}
-          ml={"15rem"}
         >
           <Text
             fontWeight={{ base: "bold", md: "semibold" }}
@@ -27,8 +26,9 @@ const About = () => {
             About Me
           </Text>
         </Box>
+
         <Box
-          w={"80%"}
+          w={"100%"}
           ml={"5rem"}
           m={{ base: "0", md: "auto" }}
           mt={{ base: "4rem", sm: "5rem" }}
@@ -38,6 +38,7 @@ const About = () => {
           p={"2rem"}
           borderRadius={"1rem"}
         >
+
           <Box
             w={{ base: "30rem", sm: "50%" }}
             m={{ base: "auto", sm: "auto" }}
@@ -49,6 +50,7 @@ const About = () => {
               src={mypic}
             />
           </Box>
+
           <Box mt={{ base: "2rem" }} w={{ md: "55rem" }}>
             <Text
               fontWeight={{ md: "semibold" }}
@@ -62,6 +64,7 @@ const About = () => {
               learning on different tech-stacks including: HTML, CSS, JS, React,
               NodeJS, Mongoose.
             </Text>
+
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
               m={{ base: "auto", sm: "auto" }}
@@ -87,8 +90,11 @@ const About = () => {
                 </Button>
               </a>
             </Box>
+
           </Box>
+
         </Box>
+
       </Box>
     </Box>
   );
