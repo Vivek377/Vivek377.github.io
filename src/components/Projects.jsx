@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <Box
       id="projects"
-      // w={{ base: "lg", sm: "full", md: "full" }}
+      w={"full"}
       top={{ base: "28rem", md: "-10rem" }}
       // h={{ md: "90rem" }}
       position={{ base: "relative", md: "relative" }}
@@ -80,11 +80,17 @@ const Projects = () => {
                 >
                   <Box className="project-description">{ele.about}</Box>
                   <Box>
-                    <Text fontWeight={"semibold"} color={"blue.300"} fontSize={"xl"}>
+                    <Text
+                      fontWeight={"semibold"}
+                      color={"blue.300"}
+                      fontSize={"xl"}
+                    >
                       Tech Stack:
                     </Text>
                   </Box>
-                  <Box mb={"1rem"} className="project-tech-stack">{ele.tech}</Box>
+                  <Box mb={"1rem"} className="project-tech-stack">
+                    {ele.tech}
+                  </Box>
                   <Box
                     w={{ sm: "fit-content" }}
                     m={{ sm: "auto" }}

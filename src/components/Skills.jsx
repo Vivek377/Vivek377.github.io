@@ -5,7 +5,7 @@ import { skills } from "../utilities/skills";
 const Skills = () => (
   <Box
     id="skills"
-    // w={{ base: "lg", sm: "full", md: "full" }}
+    w={"full"}
     top={{ base: "-10rem", md: "none" }}
     // h={{ base: "100%", md: "40rem" }}
     position={{ base: "relative", md: "relative" }}
@@ -13,11 +13,7 @@ const Skills = () => (
     bg={"#1a202c"}
     mb={"2rem"}
   >
-    <Box
-      w={"full"}
-      mt={{ base: "12rem" }}
-      textAlign={"center"}
-    >
+    <Box w={"full"} mt={{ base: "12rem" }} textAlign={"center"}>
       <Text
         fontWeight={{ base: "bold", md: "semibold" }}
         color={"blue.500"}

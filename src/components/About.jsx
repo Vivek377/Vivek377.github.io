@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Box id="about" className="about section">
       <Box
-        // w={{ base: "lg", md: "full", sm: "full" }}
+        w={"full"}
         top={{ base: "-10rem", md: "-10rem" }}
         // h={{ base: "auto", md: "20rem" }}
         position={{ base: "relative", md: "relative" }}
@@ -28,19 +28,19 @@ const About = () => {
         </Box>
 
         <Box
-          w={"100%"}
+          w={"90%"}
           ml={"5rem"}
-          m={{ base: "0", md: "auto" }}
-          mt={{ base: "4rem", sm: "5rem" }}
+          m={{ base: "auto", md: "auto" }}
+          mt={{ base: "4rem", sm: "5rem", md: "2rem" }}
           display={{ md: "flex" }}
           alignItems={"center"}
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
           p={"2rem"}
+          justifyContent={"center"}
           borderRadius={"1rem"}
         >
-
           <Box
-            w={{ base: "30rem", sm: "50%" }}
+            w={{ base: "30rem", sm: "50%", md: "20%" }}
             m={{ base: "auto", sm: "auto" }}
           >
             <Image
@@ -90,11 +90,8 @@ const About = () => {
                 </Button>
               </a>
             </Box>
-
           </Box>
-
         </Box>
-
       </Box>
     </Box>
   );

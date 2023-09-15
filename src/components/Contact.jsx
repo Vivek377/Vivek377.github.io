@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <Box
       id="contact"
-      // w={{ base: "lg", sm: "full", md: "full" }}
+      w={"full"}
       top={{ base: "20rem", sm: "15rem", md: "0rem" }}
       h={{ sm: "40rem", md: "30rem" }}
       position={{ base: "relative", md: "relative" }}
