@@ -7,13 +7,13 @@ const About = () => {
     <Box id="about" className="about section">
       <Box
         w={"full"}
-        top={{ base: "-10rem", md: "-10rem" }}
-        // h={{ base: "auto", md: "20rem" }}
+        top={{ base: "-10rem", md: "-20rem" }}
         position={{ base: "relative", md: "relative" }}
         color={"whiteAlpha.800"}
         bg={"#1a202c"}
         fontFamily={"sans-serif"}
       >
+
         <Box
           w={{ base: "fit-content", sm: "fit-content", md: "fit-content" }}
           m={"auto"}
@@ -40,7 +40,7 @@ const About = () => {
           borderRadius={"1rem"}
         >
           <Box
-            w={{ base: "30rem", sm: "50%", md: "20%" }}
+            w={{ base: "80%", sm: "50%", md: "20%" }}
             m={{ base: "auto", sm: "auto" }}
           >
             <Image

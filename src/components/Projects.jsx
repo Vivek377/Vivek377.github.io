@@ -7,7 +7,7 @@ const Projects = () => {
     <Box
       id="projects"
       w={"full"}
-      top={{ base: "28rem", md: "-10rem" }}
+      top={{ base: "28rem", md: "10rem" }}
       // h={{ md: "90rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}

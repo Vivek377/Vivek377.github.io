@@ -7,19 +7,20 @@ const Home = () => {
     <Box id="home">
       <Box
         w={"full"}
-        top={{ base: "-1rem", sm: "-2rem", md: "-1rem" }}
-        // h={{ base: "auto", md: "50rem" }}
+        top={{ base: "-2rem", sm: "-2rem", md: "-1rem" }}
         position={{ base: "relative", md: "relative" }}
         color={"whiteAlpha.800"}
         bg={"#1a202c"}
         fontFamily={"sans-serif"}
       >
         <Box
-          w={{ base: "fit-content", sm: "full", md: "60rem" }}
+          w={{ base: "full", sm: "full"}}
           display={"flex"}
           m={"auto"}
           p={"5rem"}
+          flexDirection={"column"}
           mt={"5rem"}
+          justifyContent={"center"}
           alignItems={"center"}
           fontWeight={"bold"}
         >
@@ -44,6 +45,7 @@ const Home = () => {
             </Heading>
           </Box>
         </Box>
+        
         <Box w={"fit-content"} m={"auto"} mt={"2rem"}>
           <Text
             fontWeight={"bold"}
@@ -51,7 +53,7 @@ const Home = () => {
             fontSize={{ base: "4xl", md: "4xl" }}
           >
             <Typed
-              strings={["Full Stack Developer", "MERN Stack Developer"]}
+              strings={["Full Stack Developer", "MERN Stack Developer","Frontend Developer"]}
               typeSpeed={70}
               backSpeed={50}
               loop

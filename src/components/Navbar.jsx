@@ -16,16 +16,18 @@ const Navbar = () => {
         position={{ base: "fixed", sm: "fixed", md: "fixed" }}
         zIndex={"3"}
         display={"flex"}
-        justifyContent={"space-around"}
-        gap={"19rem"}
+        justifyContent={{ md: "space-around", base: "space-between" }}
+        gap={{ md: "19rem", sm: "11rem" }}
         alignItems={"center"}
-        h={{ base: "4rem", sm: "3rem", md: "4rem" }}
+        h={{ base: "4rem", sm: "4rem", md: "4rem" }}
         fontWeight={"bold"}
         fontFamily={"sans-serif"}
       >
+        
         <Box fontSize={{ base: "xl", sm: "md", md: "xl" }} ml={"0rem"}>
           VKumar
         </Box>
+
         <Box
           display={{ base: "none", sm: "flex", md: "flex" }}
           alignItems={"center"}
@@ -116,6 +118,7 @@ const Navbar = () => {
             </a>
           </Box>
         </Box>
+
         <Box mr={"1rem"} display={{ sm: "none", md: "none" }}>
           <Link
             smooth={true}
@@ -136,18 +139,17 @@ const Navbar = () => {
       {/* Mobile Navbar */}
 
       <Box
-        m={{ base: "auto" }}
         zIndex={"9"}
         w={{ base: "full" }}
-        h={{ base: "50rem" }}
+        h={{ base: "full" }}
         position={{ base: "fixed" }}
         top={{ base: "4rem" }}
-        p={{ base: "4rem" }}
+        p={{ base: "10rem" }}
         color={"whiteAlpha.800"}
         fontSize={{ base: "4xl" }}
         bg={"blue.900"}
         display={{ base: nav ? "flex" : "none" }}
-        gap={{ base: "0rem" }}
+        alignItems={"center"}
         flexDirection={"column"}
       >
         <Box>

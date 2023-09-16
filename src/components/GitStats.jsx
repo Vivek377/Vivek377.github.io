@@ -6,7 +6,7 @@ const GitStats = () => {
   return (
     <Box
       w={"full"}
-      top={{ base: "28rem", md: "-10rem" }}
+      top={{ base: "28rem", md: "10rem" }}
       // h={{ base: "65rem",md:"55rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
@@ -29,7 +29,7 @@ const GitStats = () => {
         boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
         p={"2rem"}
         borderRadius={"1rem"}
-        w={"fit-content"}
+        w={{base:"90%",md:"fit-content"}}
         m={"auto"}
         mt={"5rem"}
       >
@@ -39,7 +39,7 @@ const GitStats = () => {
         boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
         p={"2rem"}
         borderRadius={"1rem"}
-        w={"fit-content"}
+        w={{ md: "fit-content", base: "90%" }}
         m={"auto"}
         mt={"5rem"}
       >
@@ -56,7 +56,7 @@ const GitStats = () => {
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
           p={"2rem"}
           borderRadius={"1rem"}
-          w={"fit-content"}
+          w={{base:"90%",md:"fit-content"}}
           m={"auto"}
           mt={"5rem"}
         >
@@ -72,7 +72,7 @@ const GitStats = () => {
           boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
           p={"2rem"}
           borderRadius={"1rem"}
-          w={"fit-content"}
+          w={{base:"90%",md:"fit-content"}}
           m={"auto"}
           mt={"5rem"}
         >

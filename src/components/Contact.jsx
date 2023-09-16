@@ -11,8 +11,8 @@ const Contact = () => {
     <Box
       id="contact"
       w={"full"}
-      top={{ base: "20rem", sm: "15rem", md: "0rem" }}
-      h={{ sm: "40rem", md: "30rem" }}
+      top={{ base: "20rem", sm: "15rem", md: "10rem" }}
+      h={{ sm: "45rem", md: "30rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
@@ -32,7 +32,7 @@ const Contact = () => {
         </Text>
       </Box>
       <Box textAlign={"center"}>
-        <Text fontSize={"lg"}> vk640890@gmail.com</Text>
+        <Text fontSize={"lg"}>vk640890@gmail.com</Text>
         <br />
         <Text fontSize={"lg"}>Mobile: +91 9667215291</Text>
         <br />
@@ -41,16 +41,13 @@ const Contact = () => {
       </Box>
 
       <Box
-        // display={"flex"}
-        // w={{ sm: "fit-content", md: "50%" }}
-        // m={{ sm: "auto", md: "auto" }}
         mt={{ base: "4rem", sm: "4rem", md: "4rem" }}
       >
         <SimpleGrid
-          w={{ base: "100%" }}
+          w={{ base: "100%",sm:"80%" }}
           m={{ base: "auto", sm: "auto" }}
           columns={{ base: "1", sm: "2", md: "4" }}
-          spacing={{ base: 100, sm: 150, md: 200 }}
+          spacing={{ base: 100, sm: 120, md: 200 }}
         >
           <Box
             id="contact-linkedin"
@@ -119,6 +116,7 @@ const Contact = () => {
             justifyContent={"center"}
             borderRadius={"1rem"}
             p={"2rem"}
+            mb={"2rem"}
             w={"9rem"}
             onClick={() =>
               window.open("whatsapp://send?phone=9667215291", "_blank")

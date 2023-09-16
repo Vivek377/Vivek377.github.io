@@ -7,7 +7,6 @@ const Skills = () => (
     id="skills"
     w={"full"}
     top={{ base: "-10rem", md: "none" }}
-    // h={{ base: "100%", md: "40rem" }}
     position={{ base: "relative", md: "relative" }}
     color={"whiteAlpha.800"}
     bg={"#1a202c"}
