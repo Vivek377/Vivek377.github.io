@@ -1,6 +1,6 @@
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import mypic from "../assets/vivek_picture.png";
+import mypic from "../assets/white_background.png";
 
 const About = () => {
   return (
