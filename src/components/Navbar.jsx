@@ -54,7 +54,7 @@ const Navbar = () => {
               spy={true}
               className="nav-link about"
               hashSpy={true}
-              to="about section"
+              to="about"
             >
               About
             </Link>
@@ -171,7 +171,7 @@ const Navbar = () => {
             duration={1000}
             spy={true}
             hashSpy={true}
-            to="about section"
+            to="about"
             // className="nav-link about"
             onClick={() => setNav(false)}
           >

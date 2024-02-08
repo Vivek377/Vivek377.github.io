@@ -116,8 +116,7 @@ const Contact = () => {
             justifyContent={"center"}
             borderRadius={"1rem"}
             p={"2rem"}
-            mb={"2rem"}
-            w={"9rem"}
+            w={"8rem"}
             onClick={() =>
               window.open("whatsapp://send?phone=9667215291", "_blank")
             }

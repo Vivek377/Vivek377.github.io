@@ -4,7 +4,7 @@ import mypic from "../assets/white_background.png";
 
 const About = () => {
   return (
-    <Box id="about" className="about section">
+    <Box>
       <Box
         w={"full"}
         top={{ base: "-10rem", md: "-20rem" }}
@@ -13,7 +13,6 @@ const About = () => {
         bg={"#1a202c"}
         fontFamily={"sans-serif"}
       >
-
         <Box
           w={{ base: "fit-content", sm: "fit-content", md: "fit-content" }}
           m={"auto"}
@@ -57,12 +56,13 @@ const About = () => {
               fontSize={{ base: "xl", md: "lg" }}
               id="user-detail-intro"
             >
-              dedicated full stack web developer who is always passionate about
-              learning new things. A good team player. Looking forward to
-              developing products that help in making peopleʼs lives better and
-              becoming an integral part of an organization. Having hands on
-              learning on different tech-stacks including: HTML, CSS, JS, React,
-              NodeJS, Mongoose.
+              Dedicated Full Stack Developer with proficiency in MERN stack.
+              Adept at designing and implementing scalable and efficient
+              solutions, utilizing MongoDB, Express.js, React, and Node.js.
+              Committed to continuous growth and eager to apply and expand my
+              skills in a dynamic professional setting. Having hands on learning
+              on different tech-stacks including: HTML, CSS, JS, React, NodeJS,
+              Mongoose.
             </Text>
 
             <Box

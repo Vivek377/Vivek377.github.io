@@ -14,14 +14,14 @@ export const projects = [
     }, {
         image: VirtualShop,
         name: "Virtual-Shop",
-        about: "A collaborative e-commerce project which allows users browse and buy different products of their interest",
+        about: "A collaborative e-commerce project which allows users browse and buy different products of their interest.",
         live: "https://minishop-nine.vercel.app/",
         code: "https://github.com/Sachin1yadav/Virtual-Shop",
         tech: "React | Redux | JS | Chakra-ui"
     }, {
         image: Healthistic,
         name: "Healthistic",
-        about: "A group full stack project which allows users to get different multivitamins and health supplements",
+        about: "A group full stack project which allows users to get different multivitamins and health supplements.",
         live: "https://frontend-snowy-eta.vercel.app/",
         code: "https://github.com/faisalinfinity/Healthistic-HealthKart-clone-Full-Stack-App",
         tech: "React | Redux | JS | NodeJS | MongoDB"

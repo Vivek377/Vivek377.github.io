@@ -14,7 +14,7 @@ const Home = () => {
         fontFamily={"sans-serif"}
       >
         <Box
-          w={{ base: "full", sm: "full"}}
+          w={{ base: "full", sm: "full" }}
           display={"flex"}
           m={"auto"}
           p={"5rem"}
@@ -45,7 +45,7 @@ const Home = () => {
             </Heading>
           </Box>
         </Box>
-        
+
         <Box w={"fit-content"} m={"auto"} mt={"2rem"}>
           <Text
             fontWeight={"bold"}
@@ -53,23 +53,23 @@ const Home = () => {
             fontSize={{ base: "4xl", md: "4xl" }}
           >
             <Typed
-              strings={["Full Stack Developer", "MERN Stack Developer","Frontend Developer"]}
+              strings={[
+                "Full Stack Developer",
+                "MERN Stack Developer",
+                "Frontend Developer",
+              ]}
               typeSpeed={70}
               backSpeed={50}
               loop
             />
           </Text>
         </Box>
-        <Box h={{ base: "50rem" }} mt={"2rem"}>
+        <Box h={{ base: "50rem" }} mt={"2rem"} id="about">
           <div>
-            <Text
-              fontSize={{ base: "2xl", md: "lg" }}
-              w={"60%"}
-              m={"auto"}
-            >
-              Aspiring Full Stack Web Developer, willing to work in a
-              challenging environment. Fully passionate to work in teams and
-              collaborate on various projects.
+            <Text fontSize={{ base: "2xl", md: "lg" }} w={"60%"} m={"auto"}>
+              Full Stack Web Developer, willing to work in a challenging
+              environment. Fully passionate to work in teams and collaborate on
+              various projects.
             </Text>
           </div>
         </Box>

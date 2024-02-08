@@ -14,19 +14,15 @@ const Projects = () => {
       bg={"#1a202c"}
       mb={"10rem"}
     >
-      <Box
-        w={{ base: "fit-content", sm: "fit-content", md: "15rem" }}
-        m={{ base: "auto", sm: "auto", md: "auto" }}
-        mt={{ base: "12rem" }}
+      <Box w={"full"} mt={{ base: "0rem" }} textAlign={"center"}>
+      <Text
+        fontWeight={{ base: "bold", md: "semibold" }}
+        color={"blue.500"}
+        fontSize={{ base: "4xl", md: "4xl" }}
       >
-        <Text
-          fontWeight={{ base: "bold", md: "semibold" }}
-          color={"blue.500"}
-          fontSize={{ base: "4xl", md: "4xl" }}
-        >
-          Projects
-        </Text>
-      </Box>
+        Projects
+      </Text>
+    </Box>
 
       <SimpleGrid columns={{ base: "1", sm: "1", md: "2" }}>
         {projects.map((ele) => {
