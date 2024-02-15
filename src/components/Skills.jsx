@@ -16,7 +16,7 @@ const Skills = () => (
       <Text
         fontWeight={{ base: "bold", md: "semibold" }}
         color={"blue.500"}
-        fontSize={{ base: "4xl", md: "4xl" }}
+        fontSize={{ base: "3xl", md: "4xl" }}
       >
         Skills
       </Text>

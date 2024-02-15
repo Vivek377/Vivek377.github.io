@@ -30,7 +30,7 @@ const Home = () => {
             display={{ sm: "flex" }}
             flexDirection={{ sm: "column" }}
           >
-            <Heading fontSize={{ base: "4xl", md: "6xl" }} color={"white"}>
+            <Heading fontSize={{ base: "2xl", md: "6xl" }} color={"white"}>
               Hi, I am{" "}
             </Heading>
           </Box>
@@ -38,7 +38,7 @@ const Home = () => {
           <Box ml={{ sm: "0rem", md: "1rem" }}>
             <Heading
               id="user-detail-name"
-              fontSize={{ base: "4xl", md: "6xl" }}
+              fontSize={{ base: "2xl", md: "6xl" }}
               color={"blue.300"}
             >
               Vivek Kumar
@@ -50,7 +50,7 @@ const Home = () => {
           <Text
             fontWeight={"bold"}
             color={"blue.300"}
-            fontSize={{ base: "4xl", md: "4xl" }}
+            fontSize={{ base: "2xl", md: "4xl" }}
           >
             <Typed
               strings={[
@@ -66,7 +66,7 @@ const Home = () => {
         </Box>
         <Box h={{ base: "50rem" }} mt={"2rem"} id="about">
           <div>
-            <Text fontSize={{ base: "2xl", md: "lg" }} w={"60%"} m={"auto"}>
+            <Text fontSize={{ base: "large", md: "lg" }} w={"60%"} m={"auto"}>
               Full Stack Web Developer, willing to work in a challenging
               environment. Fully passionate to work in teams and collaborate on
               various projects.

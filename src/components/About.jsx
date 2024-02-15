@@ -20,7 +20,7 @@ const About = () => {
           <Text
             fontWeight={{ base: "bold", md: "semibold" }}
             color={"blue.500"}
-            fontSize={{ base: "4xl", md: "4xl" }}
+            fontSize={{ base: "3xl", md: "4xl" }}
           >
             About Me
           </Text>
@@ -53,7 +53,7 @@ const About = () => {
           <Box mt={{ base: "2rem" }} w={{ md: "55rem" }}>
             <Text
               fontWeight={{ md: "semibold" }}
-              fontSize={{ base: "xl", md: "lg" }}
+              fontSize={{ base: "large", md: "lg" }}
               id="user-detail-intro"
             >
               Dedicated Full Stack Developer with proficiency in MERN stack.
@@ -61,22 +61,22 @@ const About = () => {
               solutions, utilizing MongoDB, Express.js, React, and Node.js.
               Committed to continuous growth and eager to apply and expand my
               skills in a dynamic professional setting. Having hands on learning
-              on different tech-stacks including: HTML, CSS, JS, React, NodeJS,
-              Mongoose.
+              on different tech-stacks.
             </Text>
 
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
               m={{ base: "auto", sm: "auto" }}
-            >
+              >
               <a
                 id="resume-link-2"
                 href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf"
                 download
-              >
+                >
                 <Button
                   variant={"ghost"}
                   _hover={{ color: "black", bg: "white" }}
+                  mt={"1rem"}
                   border={"1px solid white"}
                   id="resume-button-2"
                   onClick={() =>

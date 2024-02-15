@@ -11,14 +11,14 @@ const Contact = () => {
     <Box
       id="contact"
       w={"full"}
-      top={{ base: "20rem", sm: "15rem", md: "10rem" }}
-      h={{ sm: "45rem", md: "30rem" }}
+      top={{ base: "20rem", sm: "25rem", md: "10rem" }}
+      h={{ base:"70rem", sm: "45rem", md: "30rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
     >
       <Box
-        w={{ base: "12rem", sm: "fit-content", md: "10rem" }}
+        w={{ base: "7rem", sm: "fit-content", md: "10rem" }}
         m={"auto"}
         mt={{ base: "12rem" }}
         mb={"3rem"}
@@ -26,7 +26,7 @@ const Contact = () => {
         <Text
           fontWeight={{ base: "bold", md: "semibold" }}
           color={"blue.500"}
-          fontSize={{ base: "4xl", md: "4xl" }}
+          fontSize={{ base: "3xl", md: "4xl" }}
         >
           Contact
         </Text>
