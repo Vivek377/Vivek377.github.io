@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28c612d7.css",
-    "main.js": "/static/js/main.3df8929b.js",
+    "main.js": "/static/js/main.b64de8d2.js",
     "static/media/ObjectOPedia.png": "/static/media/ObjectOPedia.6a4168a4a420aeb9c69a.png",
     "static/media/Healthistic.png": "/static/media/Healthistic.3f91965531f411678efc.png",
     "static/media/VirtualShop.png": "/static/media/VirtualShop.6186140bb757881752de.png",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.28c612d7.css.map": "/static/css/main.28c612d7.css.map",
-    "main.3df8929b.js.map": "/static/js/main.3df8929b.js.map"
+    "main.b64de8d2.js.map": "/static/js/main.b64de8d2.js.map"
   },
   "entrypoints": [
     "static/css/main.28c612d7.css",
-    "static/js/main.3df8929b.js"
+    "static/js/main.b64de8d2.js"
   ]
 }
