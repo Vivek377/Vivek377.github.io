@@ -11,7 +11,7 @@ const Contact = () => {
     <Box
       id="contact"
       w={"full"}
-      top={{ base: "20rem", sm: "25rem", md: "10rem" }}
+      top={{ base: "20rem", sm: "25rem", md: "10rem",lg:"23rem" }}
       h={{ base:"70rem", sm: "45rem", md: "30rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}

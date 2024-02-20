@@ -7,7 +7,7 @@ const About = () => {
     <Box>
       <Box
         w={"full"}
-        top={{ base: "-10rem", md: "-20rem" }}
+        top={{ base: "-10rem", md: "-20rem", lg:"-20rem" }}
         position={{ base: "relative", md: "relative" }}
         color={"whiteAlpha.800"}
         bg={"#1a202c"}
