@@ -7,14 +7,14 @@ const Projects = () => {
     <Box
       id="projects"
       w={"full"}
-      top={{ base: "28rem", md: "10rem",lg:"20rem" }}
+      top={{ base: "28rem", md: "10rem", lg: "20rem" }}
       // h={{ md: "90rem" }}
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
       mb={"10rem"}
     >
-      <Box w={"full"} mt={{ base: "0rem" }} textAlign={"center"}>
+      <Box w={"full"} mt={{ base: "0rem" }} textAlign={"center"} mb={"2rem"}>
         <Text
           fontWeight={{ base: "bold", md: "semibold" }}
           color={"blue.500"}
@@ -68,7 +68,7 @@ const Projects = () => {
                     {ele.name}
                   </Text>
                 </Center>
-                <Box  
+                <Box
                   w={{ sm: "fit-content" }}
                   m={{ sm: "auto" }}
                   lineHeight={"2rem"}

@@ -36,6 +36,7 @@ const Skills = () => (
               textAlign={"center"}
               borderRadius={"1rem"}
               className="skills-card"
+              w={{"md":"9rem", lg: "10rem", xl:"13rem" }}
               key={ele.pic}
             >
               <Image

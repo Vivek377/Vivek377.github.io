@@ -47,7 +47,7 @@ const Contact = () => {
           w={{ base: "100%",sm:"80%" }}
           m={{ base: "auto", sm: "auto" }}
           columns={{ base: "1", sm: "2", md: "4" }}
-          spacing={{ base: 100, sm: 120, md: 200 }}
+          spacing={{ base: 100, sm: 100, md: 100 }}
         >
           <Box
             id="contact-linkedin"

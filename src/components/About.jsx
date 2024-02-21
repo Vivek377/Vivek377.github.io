@@ -7,11 +7,11 @@ const About = () => {
     <Box>
       <Box
         w={"full"}
-        top={{ base: "-10rem", md: "-20rem", lg:"-20rem" }}
+        top={{ base: "-10rem", md: "-20rem", lg: "-20rem" }}
         position={{ base: "relative", md: "relative" }}
         color={"whiteAlpha.800"}
         bg={"#1a202c"}
-        fontFamily={"sans-serif"}
+        // fontFamily={"sans-serif"}
       >
         <Box
           w={{ base: "fit-content", sm: "fit-content", md: "fit-content" }}
@@ -27,7 +27,7 @@ const About = () => {
         </Box>
 
         <Box
-          w={"90%"}
+          w={{ base: "90%", sm: "90%", md: "90%", lg: "80%" }}
           ml={"5rem"}
           m={{ base: "auto", md: "auto" }}
           mt={{ base: "4rem", sm: "5rem", md: "2rem" }}
@@ -39,18 +39,18 @@ const About = () => {
           borderRadius={"1rem"}
         >
           <Box
-            w={{ base: "80%", sm: "50%", md: "20%" }}
+            w={{ base: "80%", sm: "50%", md: "30%", lg: "35%", xl: "20%" }}
             m={{ base: "auto", sm: "auto" }}
           >
             <Image
               className="home-img"
               borderRadius={"10%"}
-              w={{ base: "16rem", sm: "15rem", md: "12rem" }}
+              w={{ base: "16rem", sm: "15rem", md: "13rem" }}
               src={mypic}
             />
           </Box>
 
-          <Box mt={{ base: "2rem" }} w={{ md: "55rem" }}>
+          <Box mt={{ base: "2rem" }} w={{ md: "60%", lg: "80%", xl: "75%" }}>
             <Text
               fontWeight={{ md: "semibold" }}
               fontSize={{ base: "large", md: "lg" }}
@@ -67,12 +67,12 @@ const About = () => {
             <Box
               w={{ base: "fit-content", sm: "fit-content" }}
               m={{ base: "auto", sm: "auto" }}
-              >
+            >
               <a
                 id="resume-link-2"
                 href="https://vivek377.github.io/Vivek-Kumar-Resume.pdf"
                 download
-                >
+              >
                 <Button
                   variant={"ghost"}
                   _hover={{ color: "black", bg: "white" }}

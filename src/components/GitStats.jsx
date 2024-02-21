@@ -11,7 +11,7 @@ const GitStats = () => {
       position={{ base: "relative", md: "relative" }}
       color={"whiteAlpha.800"}
       bg={"#1a202c"}
-    >
+    > 
       <Box
         w={{ base: "fit-content", sm: "fit-content", md: "20rem" }}
         m={{ base: "auto", md: "auto", sm: "auto" }}
@@ -19,7 +19,7 @@ const GitStats = () => {
       >
         <Text
           fontWeight={{ base: "bold", md: "semibold" }}
-          color={"blue.500"}
+        color={"blue.400"}
           fontSize={{ base: "3xl", md: "4xl" }}
         >
           My GitHub Stats
@@ -33,19 +33,21 @@ const GitStats = () => {
         m={"auto"}
         mt={"5rem"}
       >
-        <GitHubCalendar username="Vivek377" />
+        <GitHubCalendar username="Vivek377" color={"rgb(37, 98, 231)"} />
       </Box>
       <Box
         boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
         p={"2rem"}
         borderRadius={"1rem"}
         w={{ md: "fit-content", base: "90%" }}
+        // color={"pink.300"}
         m={"auto"}
         mt={"5rem"}
       >
         <Box>
           <img
             id="github-top-langs"
+            color="pink"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vivek377&layout=compact&theme=transparent&hide_border=true"
             alt="langs"
           />
