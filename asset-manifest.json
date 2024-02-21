@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.28c612d7.css",
-    "main.js": "/static/js/main.6f273b3d.js",
+    "main.css": "/static/css/main.2ab3653b.css",
+    "main.js": "/static/js/main.80623107.js",
+    "static/media/coding.gif": "/static/media/coding.dbf5d0a1077c0e4f472a.gif",
     "static/media/ObjectOPedia.png": "/static/media/ObjectOPedia.6a4168a4a420aeb9c69a.png",
     "static/media/Healthistic.png": "/static/media/Healthistic.3f91965531f411678efc.png",
     "static/media/VirtualShop.png": "/static/media/VirtualShop.6186140bb757881752de.png",
@@ -16,11 +17,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.28c612d7.css.map": "/static/css/main.28c612d7.css.map",
-    "main.6f273b3d.js.map": "/static/js/main.6f273b3d.js.map"
+    "main.2ab3653b.css.map": "/static/css/main.2ab3653b.css.map",
+    "main.80623107.js.map": "/static/js/main.80623107.js.map"
   },
   "entrypoints": [
-    "static/css/main.28c612d7.css",
-    "static/js/main.6f273b3d.js"
+    "static/css/main.2ab3653b.css",
+    "static/js/main.80623107.js"
   ]
 }
